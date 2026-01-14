@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\downloads\\streaming-learning\\streamin-backend\\streaming-micrsoservices\\identity.api\\identity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\identity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\downloads\\streaming-learning\\streamin-backend\\streaming-micrsoservices\\identity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A894888-49DC-4DE8-A0E9-E546BA7B2D1F}|Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj|c:\\users\\singh\\downloads\\streaming-learning\\streamin-backend\\streaming-micrsoservices\\streaming-micrsoservices.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A894888-49DC-4DE8-A0E9-E546BA7B2D1F}|Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj|solutionrelative:streaming-micrsoservices.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A894888-49DC-4DE8-A0E9-E546BA7B2D1F}|Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj|c:\\users\\singh\\downloads\\streaming-learning\\streamin-backend\\streaming-micrsoservices\\streaming-micrsoservices.apphost\\streaming-micrsoservices.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0A894888-49DC-4DE8-A0E9-E546BA7B2D1F}|Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj|solutionrelative:streaming-micrsoservices.apphost\\streaming-micrsoservices.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5716EE-97C6-4CA5-BF48-6FAD0BD48864}|Solution Items{9D5716EE-97C6-4CA5-BF48-6FAD0BD48864}|C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Directory.Packages.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9D5716EE-97C6-4CA5-BF48-6FAD0BD48864}|Solution Items{9D5716EE-97C6-4CA5-BF48-6FAD0BD48864}|solutionrelative:Directory.Packages.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\downloads\\streaming-learning\\streamin-backend\\streaming-micrsoservices\\identity.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\downloads\\streaming-learning\\streamin-backend\\streaming-micrsoservices\\identity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Identity.API",
+              "DocumentMoniker": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Identity.API.csproj",
+              "RelativeDocumentMoniker": "Identity.API\\Identity.API.csproj",
+              "ToolTip": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Identity.API.csproj",
+              "RelativeToolTip": "Identity.API\\Identity.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-09T05:17:04.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Program.cs",
+              "RelativeDocumentMoniker": "Identity.API\\Program.cs",
+              "ToolTip": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Program.cs",
+              "RelativeToolTip": "Identity.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T18:42:30.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Streaming-Micrsoservices.AppHost.csproj",
+              "DocumentMoniker": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
+              "RelativeDocumentMoniker": "Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
+              "ToolTip": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
+              "RelativeToolTip": "Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-08T18:35:59.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "Streaming-Micrsoservices.AppHost\\Program.cs",
+              "ToolTip": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Program.cs",
+              "RelativeToolTip": "Streaming-Micrsoservices.AppHost\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T18:34:53.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Directory.Packages.props",
+              "DocumentMoniker": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Directory.Packages.props",
+              "RelativeDocumentMoniker": "Directory.Packages.props",
+              "ToolTip": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Directory.Packages.props",
+              "RelativeToolTip": "Directory.Packages.props",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-01-08T18:34:43.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Identity.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Identity.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T18:10:39.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Identity.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\appsettings.json",
+              "RelativeToolTip": "Identity.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-08T18:10:34.373Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
