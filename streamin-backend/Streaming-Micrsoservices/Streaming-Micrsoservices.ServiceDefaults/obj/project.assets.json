@@ -2420,21 +2420,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\singh\\.nuget\\packages\\": {}
+    "C:\\Users\\singh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj",
+      "projectUniqueName": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj",
       "projectName": "Streaming-Micrsoservices.ServiceDefaults",
-      "projectPath": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj",
+      "projectPath": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj",
       "packagesPath": "C:\\Users\\singh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.ServiceDefaults\\obj\\",
+      "outputPath": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.ServiceDefaults\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "CentralPackageTransitivePinningEnabled": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2508,9 +2513,11 @@
         "centralPackageVersions": {
           "Aspire.Hosting.AppHost": "8.0.0",
           "Aspire.Hosting.PostgreSQL": "13.1.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.24",
           "Microsoft.EntityFrameworkCore.Tools": "10.0.1",
           "Microsoft.Extensions.Http.Resilience": "8.3.0",
           "Microsoft.Extensions.ServiceDiscovery": "8.0.0",
+          "Microsoft.IdentityModel.Tokens": "7.1.2",
           "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.8.1",
           "OpenTelemetry.Extensions.Hosting": "1.8.1",
           "OpenTelemetry.Instrumentation.AspNetCore": "1.8.1",
@@ -2537,7 +2544,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.319/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

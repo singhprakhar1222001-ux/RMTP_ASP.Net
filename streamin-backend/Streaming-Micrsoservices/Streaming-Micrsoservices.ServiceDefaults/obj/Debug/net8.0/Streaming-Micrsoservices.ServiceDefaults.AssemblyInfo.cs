@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Streaming-Micrsoservices.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b81bdbceee21496e85839e4c6a86995202e81557")]
 [assembly: System.Reflection.AssemblyProductAttribute("Streaming-Micrsoservices.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Streaming-Micrsoservices.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

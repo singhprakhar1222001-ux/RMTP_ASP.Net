@@ -14,6 +14,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Packages.props = Directory.Packages.props
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Infrastructure", "Identity.Infrastructure\Identity.Infrastructure.csproj", "{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8497B8A1-216C-47DB-BC97-78745ACA8DE5} = {8497B8A1-216C-47DB-BC97-78745ACA8DE5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Application", "Identity.Application\Identity.Application.csproj", "{8497B8A1-216C-47DB-BC97-78745ACA8DE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +39,14 @@ Global
 		{9ABE199C-A067-4F2D-B862-18BD62694E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ABE199C-A067-4F2D-B862-18BD62694E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ABE199C-A067-4F2D-B862-18BD62694E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8497B8A1-216C-47DB-BC97-78745ACA8DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8497B8A1-216C-47DB-BC97-78745ACA8DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8497B8A1-216C-47DB-BC97-78745ACA8DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8497B8A1-216C-47DB-BC97-78745ACA8DE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

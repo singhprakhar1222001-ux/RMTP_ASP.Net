@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nian58hR1zc=",
+  "dgSpecHash": "heIaKLLn/Hk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\singh\\Downloads\\streaming-learning\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
+  "projectFilePath": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\singh\\.nuget\\packages\\aspire.hosting\\13.1.0\\aspire.hosting.13.1.0.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\aspire.hosting.apphost\\8.0.0\\aspire.hosting.apphost.8.0.0.nupkg.sha512",
