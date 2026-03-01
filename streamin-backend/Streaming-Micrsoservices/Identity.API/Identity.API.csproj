@@ -13,6 +13,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Identity.Application\Identity.Application.csproj" />
+    <ProjectReference Include="..\Identity.Infrastructure\Identity.Infrastructure.csproj" />
     <ProjectReference Include="..\Streaming-Micrsoservices.ServiceDefaults\Streaming-Micrsoservices.ServiceDefaults.csproj" />
   </ItemGroup>
 </Project>

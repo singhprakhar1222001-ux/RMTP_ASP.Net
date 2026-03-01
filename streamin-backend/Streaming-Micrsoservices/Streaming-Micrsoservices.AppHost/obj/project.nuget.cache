@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "heIaKLLn/Hk=",
+  "dgSpecHash": "K1spUd5Dtkw=",
   "success": true,
   "projectFilePath": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\singh\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\13.0.2\\aspire.dashboard.sdk.win-x64.13.0.2.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\aspire.hosting\\13.1.0\\aspire.hosting.13.1.0.nupkg.sha512",
-    "C:\\Users\\singh\\.nuget\\packages\\aspire.hosting.apphost\\8.0.0\\aspire.hosting.apphost.8.0.0.nupkg.sha512",
+    "C:\\Users\\singh\\.nuget\\packages\\aspire.hosting.apphost\\13.0.2\\aspire.hosting.apphost.13.0.2.nupkg.sha512",
+    "C:\\Users\\singh\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\13.0.2\\aspire.hosting.orchestration.win-x64.13.0.2.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\aspire.hosting.postgresql\\13.1.0\\aspire.hosting.postgresql.13.1.0.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\aspnetcore.healthchecks.npgsql\\9.0.0\\aspnetcore.healthchecks.npgsql.9.0.0.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\aspnetcore.healthchecks.uris\\9.0.0\\aspnetcore.healthchecks.uris.9.0.0.nupkg.sha512",

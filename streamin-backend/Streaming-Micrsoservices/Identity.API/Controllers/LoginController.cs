@@ -3,6 +3,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Security.Cryptography;
 using System.IO;
 using System.Text;
+using Identity.Application.Features;
 
 
 
@@ -10,23 +11,24 @@ using System.Text;
 namespace Identity.API.Controllers
 {
     [ApiController]
-    [Route("{Controller}")]
+    
+    [Route("[Controller]")]
 
     public class LoginController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
+        private readonly IJwtService _jwtService;
+        public LoginController(IJwtService jwtService) {
+            _jwtService = jwtService;
         }
-
-        [HttpPost]
-        public async Task<IActionResult> Login([FromBody] UserLogin userLogin)
+        
+        [HttpGet]
+        public async Task<IActionResult> Login()
         {
-            
-            
+
+            var token=_jwtService.GenerateToken();
             
 
-            return Ok("Login Successfull");
+            return Ok(new { token=token});
         }
     }
 

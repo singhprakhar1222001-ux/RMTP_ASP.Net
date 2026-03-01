@@ -2,6 +2,17 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Aspire.Dashboard.Sdk.win-x64/13.0.2": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Aspire.Dashboard.Sdk.win-x64.props": {},
+          "buildTransitive/Aspire.Dashboard.Sdk.win-x64.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Aspire.Dashboard.Sdk.win-x64.props": {},
+          "buildMultiTargeting/Aspire.Dashboard.Sdk.win-x64.targets": {}
+        }
+      },
       "Aspire.Hosting/13.1.0": {
         "type": "package",
         "dependencies": {
@@ -82,10 +93,33 @@
           }
         }
       },
-      "Aspire.Hosting.AppHost/8.0.0": {
+      "Aspire.Hosting.AppHost/13.0.2": {
         "type": "package",
         "dependencies": {
-          "Aspire.Hosting": "8.0.0"
+          "AspNetCore.HealthChecks.Uris": "9.0.0",
+          "Aspire.Hosting": "13.0.2",
+          "Google.Protobuf": "3.33.0",
+          "Grpc.AspNetCore": "2.71.0",
+          "Grpc.Net.ClientFactory": "2.71.0",
+          "Grpc.Tools": "2.72.0",
+          "Humanizer.Core": "2.14.1",
+          "JsonPatch.Net": "3.3.0",
+          "KubernetesClient": "18.0.5",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.22",
+          "Microsoft.Extensions.Hosting": "8.0.1",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Http": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "Newtonsoft.Json": "13.0.4",
+          "Polly.Core": "8.6.4",
+          "Semver": "3.0.0",
+          "StreamJsonRpc": "2.22.23",
+          "System.IO.Hashing": "9.0.10"
         },
         "compile": {
           "lib/net8.0/Aspire.Hosting.AppHost.dll": {
@@ -98,12 +132,21 @@
           }
         },
         "build": {
-          "buildTransitive/Aspire.Hosting.AppHost.props": {},
-          "buildTransitive/Aspire.Hosting.AppHost.targets": {}
+          "build/Aspire.Hosting.AppHost.props": {},
+          "build/Aspire.Hosting.AppHost.targets": {}
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Aspire.Hosting.AppHost.props": {},
           "buildMultiTargeting/Aspire.Hosting.AppHost.targets": {}
+        }
+      },
+      "Aspire.Hosting.Orchestration.win-x64/13.0.2": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Aspire.Hosting.Orchestration.win-x64.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Aspire.Hosting.Orchestration.win-x64.targets": {}
         }
       },
       "Aspire.Hosting.PostgreSQL/13.1.0": {
@@ -1403,6 +1446,151 @@
     }
   },
   "libraries": {
+    "Aspire.Dashboard.Sdk.win-x64/13.0.2": {
+      "sha512": "nJaYqX5BvVZC11s1eeBgp200q6s2P9iTjURu5agdBwnDtKLM9rkGOGKpwApUr7LuiAKQO5Zx9Zfk5zfZqg4vUg==",
+      "type": "package",
+      "path": "aspire.dashboard.sdk.win-x64/13.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "aspire.dashboard.sdk.win-x64.13.0.2.nupkg.sha512",
+        "aspire.dashboard.sdk.win-x64.nuspec",
+        "build/Aspire.Dashboard.Sdk.win-x64.props",
+        "build/Aspire.Dashboard.Sdk.win-x64.targets",
+        "buildMultiTargeting/Aspire.Dashboard.Sdk.win-x64.props",
+        "buildMultiTargeting/Aspire.Dashboard.Sdk.win-x64.targets",
+        "buildTransitive/Aspire.Dashboard.Sdk.win-x64.props",
+        "buildTransitive/Aspire.Dashboard.Sdk.win-x64.targets",
+        "tools/Aspire.Dashboard.deps.json",
+        "tools/Aspire.Dashboard.dll",
+        "tools/Aspire.Dashboard.exe",
+        "tools/Aspire.Dashboard.runtimeconfig.json",
+        "tools/Aspire.Dashboard.staticwebassets.endpoints.json",
+        "tools/Aspire.Dashboard.xml",
+        "tools/Google.Protobuf.dll",
+        "tools/Grpc.AspNetCore.Server.ClientFactory.dll",
+        "tools/Grpc.AspNetCore.Server.dll",
+        "tools/Grpc.Core.Api.dll",
+        "tools/Grpc.Net.Client.dll",
+        "tools/Grpc.Net.ClientFactory.dll",
+        "tools/Grpc.Net.Common.dll",
+        "tools/Humanizer.dll",
+        "tools/Markdig.dll",
+        "tools/Microsoft.AspNetCore.Authentication.Certificate.dll",
+        "tools/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll",
+        "tools/Microsoft.Extensions.AI.Abstractions.dll",
+        "tools/Microsoft.Extensions.AI.OpenAI.dll",
+        "tools/Microsoft.Extensions.AI.dll",
+        "tools/Microsoft.Extensions.Caching.Abstractions.dll",
+        "tools/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tools/Microsoft.Extensions.Logging.Abstractions.dll",
+        "tools/Microsoft.Extensions.Primitives.dll",
+        "tools/Microsoft.FluentUI.AspNetCore.Components.Icons.Color.dll",
+        "tools/Microsoft.FluentUI.AspNetCore.Components.Icons.Filled.dll",
+        "tools/Microsoft.FluentUI.AspNetCore.Components.Icons.Light.dll",
+        "tools/Microsoft.FluentUI.AspNetCore.Components.Icons.Regular.dll",
+        "tools/Microsoft.FluentUI.AspNetCore.Components.Icons.dll",
+        "tools/Microsoft.FluentUI.AspNetCore.Components.dll",
+        "tools/Microsoft.IdentityModel.Abstractions.dll",
+        "tools/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "tools/Microsoft.IdentityModel.Logging.dll",
+        "tools/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "tools/Microsoft.IdentityModel.Protocols.dll",
+        "tools/Microsoft.IdentityModel.Tokens.dll",
+        "tools/ModelContextProtocol.AspNetCore.dll",
+        "tools/ModelContextProtocol.Core.dll",
+        "tools/ModelContextProtocol.dll",
+        "tools/OpenAI.dll",
+        "tools/System.ClientModel.dll",
+        "tools/System.Diagnostics.DiagnosticSource.dll",
+        "tools/System.IO.Pipelines.dll",
+        "tools/System.IdentityModel.Tokens.Jwt.dll",
+        "tools/System.Memory.Data.dll",
+        "tools/System.Net.ServerSentEvents.dll",
+        "tools/System.Numerics.Tensors.dll",
+        "tools/System.Text.Encodings.Web.dll",
+        "tools/System.Text.Json.dll",
+        "tools/System.Threading.Channels.dll",
+        "tools/appsettings.Development.json",
+        "tools/appsettings.json",
+        "tools/cs/Aspire.Dashboard.resources.dll",
+        "tools/de/Aspire.Dashboard.resources.dll",
+        "tools/es/Aspire.Dashboard.resources.dll",
+        "tools/fr/Aspire.Dashboard.resources.dll",
+        "tools/it/Aspire.Dashboard.resources.dll",
+        "tools/ja/Aspire.Dashboard.resources.dll",
+        "tools/ko/Aspire.Dashboard.resources.dll",
+        "tools/pl/Aspire.Dashboard.resources.dll",
+        "tools/pt-BR/Aspire.Dashboard.resources.dll",
+        "tools/ru/Aspire.Dashboard.resources.dll",
+        "tools/tr/Aspire.Dashboard.resources.dll",
+        "tools/web.config",
+        "tools/wwwroot/Aspire.Dashboard.modules.json",
+        "tools/wwwroot/Aspire.Dashboard.styles.css",
+        "tools/wwwroot/Components/Controls/AssistantChat.razor.js",
+        "tools/wwwroot/Components/Controls/Chart/MetricTable.razor.js",
+        "tools/wwwroot/Components/Controls/MarkdownRenderer.razor.js",
+        "tools/wwwroot/Components/Controls/TextVisualizer.razor.js",
+        "tools/wwwroot/Components/Pages/Login.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Anchor/FluentAnchor.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/AnchoredRegion/FluentAnchoredRegion.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Button/FluentButton.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Checkbox/FluentCheckbox.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/DataGrid/FluentDataGrid.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/DateTime/FluentTimePicker.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/DesignSystemProvider/FluentDesignTheme.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Dialog/FluentDialogProvider.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Divider/FluentDivider.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Grid/FluentGrid.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/HorizontalScroll/FluentHorizontalScroll.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/InputFile/FluentInputFile.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/KeyCode/FluentKeyCode.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Label/FluentInputLabel.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/List/FluentAutocomplete.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/List/FluentCombobox.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/List/ListComponentBase.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Menu/FluentMenu.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/NavMenu/FluentNavMenu.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Overflow/FluentOverflow.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Overlay/FluentOverlay.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/PullToRefresh/FluentPullToRefresh.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Search/FluentSearch.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Slider/FluentSlider.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Slider/FluentSliderLabel.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/SortableList/FluentSortableList.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Splitter/FluentMultiSplitter.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Tabs/FluentTab.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/TextField/FluentTextField.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Toolbar/FluentToolbar.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Components/Tooltip/FluentTooltip.razor.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js.LEGAL.txt",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js.map",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.wuc5ioiakb.bundle.scp.css",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/css/reboot.css",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/js/initializersLoader.webview.js",
+        "tools/wwwroot/_content/Microsoft.FluentUI.AspNetCore.Components/js/loading-theme.js",
+        "tools/wwwroot/css/app.css",
+        "tools/wwwroot/css/highlight.css",
+        "tools/wwwroot/css/markdown.css",
+        "tools/wwwroot/favicon.ico",
+        "tools/wwwroot/framework/blazor.web.js",
+        "tools/wwwroot/img/TokenExample.png",
+        "tools/wwwroot/js/app-metrics.js",
+        "tools/wwwroot/js/app-reconnect.js",
+        "tools/wwwroot/js/app-resourcegraph.js",
+        "tools/wwwroot/js/app-theme.js",
+        "tools/wwwroot/js/app.js",
+        "tools/wwwroot/js/d3.v7.min.js",
+        "tools/wwwroot/js/highlight-11.10.0.min.js",
+        "tools/wwwroot/js/plotly-basic-2.35.2.min.js",
+        "tools/zh-Hans/Aspire.Dashboard.resources.dll",
+        "tools/zh-Hant/Aspire.Dashboard.resources.dll"
+      ]
+    },
     "Aspire.Hosting/13.1.0": {
       "sha512": "veub9dDYRFQPbAnixhRRdikKI6zonmA7F6TViqKr1HWx97CaXBAJKe1ju5iTZ4+wYpZdLeDVuzw5MWB4qQAIMw==",
       "type": "package",
@@ -1432,26 +1620,61 @@
         "lib/net8.0/zh-Hant/Aspire.Hosting.resources.dll"
       ]
     },
-    "Aspire.Hosting.AppHost/8.0.0": {
-      "sha512": "m3xv5s0Jha7+320r0E3EzvJv+to4fcaE2lOdq/Z6x+QPxFjloUCsYhJNyqyh+BpQg2bCR3tXSm6Qopt8/zz/Tg==",
+    "Aspire.Hosting.AppHost/13.0.2": {
+      "sha512": "YOPNND7qr6Ik8Ej1Z9P0TlLyA1VRnRr02J+nEVh0Wk8nB0GA/RelsmrfqNoHw8Wc4aj5vgxmkvOkQDEJs47zGA==",
       "type": "package",
-      "path": "aspire.hosting.apphost/8.0.0",
+      "path": "aspire.hosting.apphost/13.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "AspireAppHostConfiguration.json",
         "Icon.png",
         "README.md",
         "THIRD-PARTY-NOTICES.TXT",
-        "aspire.hosting.apphost.8.0.0.nupkg.sha512",
+        "analyzers/dotnet/cs/Aspire.Hosting.Analyzers.dll",
+        "aspire.hosting.apphost.13.0.2.nupkg.sha512",
         "aspire.hosting.apphost.nuspec",
         "build/Aspire.Hosting.AppHost.props",
         "build/Aspire.Hosting.AppHost.targets",
         "buildMultiTargeting/Aspire.Hosting.AppHost.props",
         "buildMultiTargeting/Aspire.Hosting.AppHost.targets",
-        "buildTransitive/Aspire.Hosting.AppHost.props",
-        "buildTransitive/Aspire.Hosting.AppHost.targets",
+        "lib/net10.0/Aspire.Hosting.AppHost.dll",
+        "lib/net10.0/Aspire.Hosting.AppHost.xml",
         "lib/net8.0/Aspire.Hosting.AppHost.dll",
-        "lib/net8.0/Aspire.Hosting.AppHost.xml"
+        "lib/net8.0/Aspire.Hosting.AppHost.xml",
+        "lib/net9.0/Aspire.Hosting.AppHost.dll",
+        "lib/net9.0/Aspire.Hosting.AppHost.xml"
+      ]
+    },
+    "Aspire.Hosting.Orchestration.win-x64/13.0.2": {
+      "sha512": "bHQavGeVzPJYhR+0hlZtG/RN+Fxa/TpNZDvbgbVjGTw0zNqzcZFI+LkeLzM6T7RXHs3pjyDQUYFU4Y4h1mPzLw==",
+      "type": "package",
+      "path": "aspire.hosting.orchestration.win-x64/13.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "aspire.hosting.orchestration.win-x64.13.0.2.nupkg.sha512",
+        "aspire.hosting.orchestration.win-x64.nuspec",
+        "build/Aspire.Hosting.Orchestration.win-x64.targets",
+        "buildMultiTargeting/Aspire.Hosting.Orchestration.win-x64.targets",
+        "buildTransitive/Aspire.Hosting.Orchestration.win-x64.targets",
+        "tools/EULA.rtf",
+        "tools/NOTICE",
+        "tools/_manifest/spdx_2.2/ESRPClientLogs1124231835749.json",
+        "tools/_manifest/spdx_2.2/bsi.cose",
+        "tools/_manifest/spdx_2.2/bsi.json",
+        "tools/_manifest/spdx_2.2/manifest.cat",
+        "tools/_manifest/spdx_2.2/manifest.spdx.cose",
+        "tools/_manifest/spdx_2.2/manifest.spdx.json",
+        "tools/_manifest/spdx_2.2/manifest.spdx.json.sha256",
+        "tools/dcp.exe",
+        "tools/ext/bin/dcpproc.exe",
+        "tools/ext/bin/dcptun.exe",
+        "tools/ext/bin/dcptun_c",
+        "tools/ext/dcpctrl.exe"
       ]
     },
     "Aspire.Hosting.PostgreSQL/13.1.0": {
@@ -3302,7 +3525,9 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Aspire.Hosting.AppHost >= 8.0.0",
+      "Aspire.Dashboard.Sdk.win-x64 >= 13.0.2",
+      "Aspire.Hosting.AppHost >= 13.0.2",
+      "Aspire.Hosting.Orchestration.win-x64 >= 13.0.2",
       "Aspire.Hosting.PostgreSQL >= 13.1.0"
     ]
   },
@@ -3355,16 +3580,27 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Aspire.Dashboard.Sdk.win-x64": {
+            "target": "Package",
+            "version": "[13.0.2, )",
+            "autoReferenced": true
+          },
           "Aspire.Hosting.AppHost": {
             "target": "Package",
-            "version": "[8.0.0, )",
+            "version": "[13.0.2, )",
             "versionCentrallyManaged": true
+          },
+          "Aspire.Hosting.Orchestration.win-x64": {
+            "target": "Package",
+            "version": "[13.0.2, )",
+            "autoReferenced": true
           },
           "Aspire.Hosting.PostgreSQL": {
             "target": "Package",
@@ -3373,10 +3609,11 @@
           }
         },
         "centralPackageVersions": {
-          "Aspire.Hosting.AppHost": "8.0.0",
+          "Aspire.Hosting.AppHost": "13.0.2",
           "Aspire.Hosting.PostgreSQL": "13.1.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.24",
           "Microsoft.EntityFrameworkCore.Tools": "10.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
           "Microsoft.Extensions.Http.Resilience": "8.3.0",
           "Microsoft.Extensions.ServiceDiscovery": "8.0.0",
           "Microsoft.IdentityModel.Tokens": "7.1.2",
@@ -3403,7 +3640,15 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "centralTransitiveDependencyGroups": {
+    "net8.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions": {
+        "include": "Runtime, Compile, Native, BuildTransitive",
+        "version": "[8.0.2, )"
       }
     }
   }

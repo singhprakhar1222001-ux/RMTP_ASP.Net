@@ -15,6 +15,10 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
+
+        //extension method for jwt
+        builder.Services.AddJwt();
+
         var app = builder.Build();
 
         app.MapDefaultEndpoints();

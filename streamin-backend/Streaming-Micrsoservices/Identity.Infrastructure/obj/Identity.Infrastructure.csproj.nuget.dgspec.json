@@ -49,16 +49,25 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )",
+              "versionCentrallyManaged": true
+            }
+          },
           "centralPackageVersions": {
-            "Aspire.Hosting.AppHost": "8.0.0",
+            "Aspire.Hosting.AppHost": "13.0.2",
             "Aspire.Hosting.PostgreSQL": "13.1.0",
             "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.24",
             "Microsoft.EntityFrameworkCore.Tools": "10.0.1",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
             "Microsoft.Extensions.Http.Resilience": "8.3.0",
             "Microsoft.Extensions.ServiceDiscovery": "8.0.0",
             "Microsoft.IdentityModel.Tokens": "7.1.2",
@@ -85,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -138,7 +147,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -156,10 +166,11 @@
             }
           },
           "centralPackageVersions": {
-            "Aspire.Hosting.AppHost": "8.0.0",
+            "Aspire.Hosting.AppHost": "13.0.2",
             "Aspire.Hosting.PostgreSQL": "13.1.0",
             "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.24",
             "Microsoft.EntityFrameworkCore.Tools": "10.0.1",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
             "Microsoft.Extensions.Http.Resilience": "8.3.0",
             "Microsoft.Extensions.ServiceDiscovery": "8.0.0",
             "Microsoft.IdentityModel.Tokens": "7.1.2",
@@ -186,7 +197,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

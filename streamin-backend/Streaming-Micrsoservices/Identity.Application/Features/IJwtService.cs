@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Identity.Application.DTO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,8 @@ namespace Identity.Application.Features
         public string GenerateToken();
 
         public Task ValidateToken();
+
+        public List<JwkDTO> GenerateJwls();
 
 
     }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+pzQQ0rOtAU=",
+  "dgSpecHash": "eSyRHLHGKS4=",
   "success": true,
   "projectFilePath": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Application\\Identity.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\singh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

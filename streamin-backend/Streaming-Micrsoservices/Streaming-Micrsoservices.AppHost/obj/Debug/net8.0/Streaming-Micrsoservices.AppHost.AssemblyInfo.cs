@@ -12,20 +12,23 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("d4e03b56-5cd4-4afa-8426-d210a613e75d")]
-[assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Program Files\\dotnet\\packs\\Aspire.Hosting.Orchestration.win-x64\\8.0.0\\tools\\dc" +
-    "p.exe")]
-[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Program Files\\dotnet\\packs\\Aspire.Hosting.Orchestration.win-x64\\8.0.0\\tools\\ex" +
-    "t\\")]
-[assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Program Files\\dotnet\\packs\\Aspire.Hosting.Orchestration.win-x64\\8.0.0\\tools\\ex" +
-    "t\\bin\\")]
+[assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Users\\singh\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\13.0.2\\tools\\" +
+    "dcp.exe")]
+[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Users\\singh\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\13.0.2\\tools\\" +
+    "ext\\")]
+[assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\singh\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\13.0.2\\tools\\" +
+    "ext\\bin\\")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\St" +
     "reaming-Micrsoservices.AppHost")]
-[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Program Files\\dotnet\\packs\\Aspire.Dashboard.Sdk.win-x64\\8.0.0\\tools\\Aspire.Das" +
-    "hboard.exe")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "Streaming-Micrsoservices.AppHost.csproj")]
+[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\singh\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\13.0.2\\tools\\Aspire.D" +
+    "ashboard.exe")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\St" +
+    "reaming-Micrsoservices.AppHost\\obj\\")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Streaming-Micrsoservices.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b81bdbceee21496e85839e4c6a86995202e81557")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9024c45ac8d0200fe4ef0d0ca1fe7fec7eff1eb5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Streaming-Micrsoservices.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Streaming-Micrsoservices.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

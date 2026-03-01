@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "nDtNpdBCeDQ=",
+  "dgSpecHash": "dPmu2ESQ58E=",
   "success": true,
   "projectFilePath": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.24\\microsoft.aspnetcore.authentication.jwtbearer.8.0.24.nupkg.sha512",
+    "C:\\Users\\singh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.1.2\\microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.1.2\\microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.identitymodel.logging\\7.1.2\\microsoft.identitymodel.logging.7.1.2.nupkg.sha512",

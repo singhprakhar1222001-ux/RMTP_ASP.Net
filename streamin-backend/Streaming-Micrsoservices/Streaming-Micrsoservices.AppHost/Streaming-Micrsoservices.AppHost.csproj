@@ -1,4 +1,5 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Sdk Name="Aspire.AppHost.Sdk" Version="9.0.0" />
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
@@ -13,5 +14,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Identity.API\Identity.API.csproj" />
+    <ProjectReference Include="..\Work-Service.API\Work-Service.API.csproj" />
   </ItemGroup>
 </Project>

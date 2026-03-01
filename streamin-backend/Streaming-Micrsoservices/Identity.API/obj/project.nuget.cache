@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8SipBdglJsQ=",
+  "dgSpecHash": "t8NRsofhXq0=",
   "success": true,
   "projectFilePath": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Identity.API.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,7 @@
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.1\\microsoft.extensions.configuration.binder.8.0.1.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\singh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\singh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.autoactivation\\8.3.0\\microsoft.extensions.dependencyinjection.autoactivation.8.3.0.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.extensions.diagnosticadapter\\3.1.32\\microsoft.extensions.diagnosticadapter.3.1.32.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.extensions.diagnostics\\8.0.0\\microsoft.extensions.diagnostics.8.0.0.nupkg.sha512",
