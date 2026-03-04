@@ -17,6 +17,18 @@
         }
       }
     },
+    "/.well-known/openid-configuration": {
+      "get": {
+        "tags": [
+          "JwtKey"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Login": {
       "get": {
         "tags": [

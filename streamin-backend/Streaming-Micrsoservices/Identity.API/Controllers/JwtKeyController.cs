@@ -1,7 +1,9 @@
 ﻿using Identity.Application.Features;
 using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography;
+using static System.Net.WebRequestMethods;
 
 namespace Identity.API.Controllers
 {
@@ -20,6 +22,18 @@ namespace Identity.API.Controllers
             var res = jwtService.GenerateJwls();
             return Ok(new { Keys = res });
         }
+
+        [HttpGet("/.well-known/openid-configuration")]
+        public IActionResult OpenID()
+        {
+            return Ok(new
+            {
+                issuer= "https://localhost:7056",
+                jwks_uri = "https://localhost:7056/.well-known/jwks.json",
+                token_endpoint= "https://localhost:7056/login"
+            });
+        }
+
         
     }
 }

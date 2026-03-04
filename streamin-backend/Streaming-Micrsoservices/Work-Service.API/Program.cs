@@ -15,14 +15,13 @@ builder.Services.AddAuthentication()
     .AddJwtBearer("jwt",
     o =>
     {
-        
         o.Authority = "https://localhost:7056";
         o.Audience = "workservice";
         o.RequireHttpsMetadata = false;
 
         o.TokenValidationParameters = new TokenValidationParameters
         {
-
+            
         };
     }
     );

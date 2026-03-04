@@ -42,8 +42,8 @@ namespace Identity.Infrastructure.Jwt
 
                 SecurityTokenDescriptor securityTokenDescriptor = new SecurityTokenDescriptor
                 {
-                    Issuer = "http://localhost:5000",
-                    Audience = "TaskServer",
+                    Issuer = "https://localhost:7056",
+                    Audience = "workservice",
                     Subject = new ClaimsIdentity(new[]
                     {
                         new Claim("guid",Guid.NewGuid().ToString()),
@@ -73,7 +73,7 @@ namespace Identity.Infrastructure.Jwt
             try
             {
                 var rsa = RSA.Create();
-                rsa.ImportRSAPrivateKey(File.ReadAllBytes("file"),out _);
+                rsa.ImportRSAPrivateKey(File.ReadAllBytes("key"),out _);
                 var parameters=rsa.ExportParameters(false);
                 List<JwkDTO> res = new List<JwkDTO>();
                 var key = new JwkDTO

@@ -10,6 +10,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Identity.API.Controllers.JwtKeyController",
+    "Method": "OpenID",
+    "RelativePath": ".well-known/openid-configuration",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Identity.API.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "Login",
