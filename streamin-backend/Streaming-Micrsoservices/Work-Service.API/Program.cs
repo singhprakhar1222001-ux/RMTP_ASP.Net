@@ -11,6 +11,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+
+
 builder.Services.AddAuthentication()
     .AddJwtBearer("jwt",
     o =>

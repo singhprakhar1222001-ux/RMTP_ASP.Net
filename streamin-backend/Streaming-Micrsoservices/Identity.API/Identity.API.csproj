@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Identity.Application\Identity.Application.csproj" />
     <ProjectReference Include="..\Identity.Infrastructure\Identity.Infrastructure.csproj" />
+    <ProjectReference Include="..\Identity.SharedKernel\Identity.SharedKernel.csproj" />
     <ProjectReference Include="..\Streaming-Micrsoservices.ServiceDefaults\Streaming-Micrsoservices.ServiceDefaults.csproj" />
   </ItemGroup>
 </Project>

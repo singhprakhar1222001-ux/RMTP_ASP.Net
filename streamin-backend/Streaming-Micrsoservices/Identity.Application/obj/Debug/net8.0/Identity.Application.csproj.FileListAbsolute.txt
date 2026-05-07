@@ -11,3 +11,6 @@ C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\I
 C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Application\obj\Debug\net8.0\refint\Identity.Application.dll
 C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Application\obj\Debug\net8.0\Identity.Application.pdb
 C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Application\obj\Debug\net8.0\ref\Identity.Application.dll
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Application\bin\Debug\net8.0\Identity.SharedKernel.dll
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Application\bin\Debug\net8.0\Identity.SharedKernel.pdb
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Application\obj\Debug\net8.0\Identity.59D253F8.Up2Date

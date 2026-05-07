@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9ABE199C-A067-4F2D-B862-18BD62694E6C}|Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\streaming-micrsoservices.servicedefaults\\streaming-micrsoservices.servicedefaults.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9ABE199C-A067-4F2D-B862-18BD62694E6C}|Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj|solutionrelative:streaming-micrsoservices.servicedefaults\\streaming-micrsoservices.servicedefaults.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B4A2EC0-8EA4-6D7C-1B36-98E2272E7334}|Work-Service.API\\Work-Service.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\work-service.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B4A2EC0-8EA4-6D7C-1B36-98E2272E7334}|Work-Service.API\\Work-Service.API.csproj|solutionrelative:work-service.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.infrastructure\\jwt\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:identity.infrastructure\\jwt\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\controllers\\jwtkeycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\controllers\\jwtkeycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,64 +11,192 @@
       "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.application\\dto\\jwkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|solutionrelative:identity.application\\dto\\jwkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.infrastructure\\jwt\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:identity.infrastructure\\jwt\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.infrastructure\\persistance\\refreshtokenstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:identity.infrastructure\\persistance\\refreshtokenstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\identity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\identity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.infrastructure\\migrations\\20260507174028_refreshstore-userid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:identity.infrastructure\\migrations\\20260507174028_refreshstore-userid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B4A2EC0-8EA4-6D7C-1B36-98E2272E7334}|Work-Service.API\\Work-Service.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\work-service.api\\controllers\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B4A2EC0-8EA4-6D7C-1B36-98E2272E7334}|Work-Service.API\\Work-Service.API.csproj|solutionrelative:work-service.api\\controllers\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.infrastructure\\migrations\\20260505173730_update-refreshstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:identity.infrastructure\\migrations\\20260505173730_update-refreshstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.application\\features\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|solutionrelative:identity.application\\features\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.application\\service\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|solutionrelative:identity.application\\service\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B4A2EC0-8EA4-6D7C-1B36-98E2272E7334}|Work-Service.API\\Work-Service.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\work-service.api\\work-service.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8B4A2EC0-8EA4-6D7C-1B36-98E2272E7334}|Work-Service.API\\Work-Service.API.csproj|solutionrelative:work-service.api\\work-service.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.application\\dto\\validateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|solutionrelative:identity.application\\dto\\validateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.infrastructure\\persistance\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:identity.infrastructure\\persistance\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115C1A10-1EE1-4C33-A0BB-1F53DD1EB0E8}|Identity.SharedKernel\\Identity.SharedKernel.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.sharedkernel\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115C1A10-1EE1-4C33-A0BB-1F53DD1EB0E8}|Identity.SharedKernel\\Identity.SharedKernel.csproj|solutionrelative:identity.sharedkernel\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.application\\features\\users\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|solutionrelative:identity.application\\features\\users\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\helpers\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\helpers\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A894888-49DC-4DE8-A0E9-E546BA7B2D1F}|Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\streaming-micrsoservices.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A894888-49DC-4DE8-A0E9-E546BA7B2D1F}|Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj|solutionrelative:streaming-micrsoservices.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\controllers\\useractionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\controllers\\useractionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D53535-2934-47A7-A20B-288F011D4D8F}|WorkService.Infrastructure\\WorkService.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\workservice.infrastructure\\applicationbdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D53535-2934-47A7-A20B-288F011D4D8F}|WorkService.Infrastructure\\WorkService.Infrastructure.csproj|solutionrelative:workservice.infrastructure\\applicationbdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D53535-2934-47A7-A20B-288F011D4D8F}|WorkService.Infrastructure\\WorkService.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\workservice.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D53535-2934-47A7-A20B-288F011D4D8F}|WorkService.Infrastructure\\WorkService.Infrastructure.csproj|solutionrelative:workservice.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.application\\dto\\jwkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|solutionrelative:identity.application\\dto\\jwkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115C1A10-1EE1-4C33-A0BB-1F53DD1EB0E8}|Identity.SharedKernel\\Identity.SharedKernel.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.sharedkernel\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115C1A10-1EE1-4C33-A0BB-1F53DD1EB0E8}|Identity.SharedKernel\\Identity.SharedKernel.csproj|solutionrelative:identity.sharedkernel\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\identity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\identity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.application\\identity.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|solutionrelative:identity.application\\identity.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.infrastructure\\identity.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:identity.infrastructure\\identity.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A894888-49DC-4DE8-A0E9-E546BA7B2D1F}|Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\streaming-micrsoservices.apphost\\streaming-micrsoservices.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0A894888-49DC-4DE8-A0E9-E546BA7B2D1F}|Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj|solutionrelative:streaming-micrsoservices.apphost\\streaming-micrsoservices.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\identity.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\identity.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4A2EC0-8EA4-6D7C-1B36-98E2272E7334}|Work-Service.API\\Work-Service.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\work-service.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4A2EC0-8EA4-6D7C-1B36-98E2272E7334}|Work-Service.API\\Work-Service.API.csproj|solutionrelative:work-service.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4A2EC0-8EA4-6D7C-1B36-98E2272E7334}|Work-Service.API\\Work-Service.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\work-service.api\\work-service.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B4A2EC0-8EA4-6D7C-1B36-98E2272E7334}|Work-Service.API\\Work-Service.API.csproj|solutionrelative:work-service.api\\work-service.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\work-service.domain\\work-service.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|solutionrelative:work-service.domain\\work-service.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A894888-49DC-4DE8-A0E9-E546BA7B2D1F}|Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\streaming-micrsoservices.apphost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0A894888-49DC-4DE8-A0E9-E546BA7B2D1F}|Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj|solutionrelative:streaming-micrsoservices.apphost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C8D53535-2934-47A7-A20B-288F011D4D8F}|WorkService.Infrastructure\\WorkService.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\workservice.infrastructure\\configuration\\projectuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D53535-2934-47A7-A20B-288F011D4D8F}|WorkService.Infrastructure\\WorkService.Infrastructure.csproj|solutionrelative:workservice.infrastructure\\configuration\\projectuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D53535-2934-47A7-A20B-288F011D4D8F}|WorkService.Infrastructure\\WorkService.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\workservice.infrastructure\\workservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C8D53535-2934-47A7-A20B-288F011D4D8F}|WorkService.Infrastructure\\WorkService.Infrastructure.csproj|solutionrelative:workservice.infrastructure\\workservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.infrastructure\\migrations\\20260425071024_create-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}|Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:identity.infrastructure\\migrations\\20260425071024_create-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ABE199C-A067-4F2D-B862-18BD62694E6C}|Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\streaming-micrsoservices.servicedefaults\\streaming-micrsoservices.servicedefaults.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9ABE199C-A067-4F2D-B862-18BD62694E6C}|Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj|solutionrelative:streaming-micrsoservices.servicedefaults\\streaming-micrsoservices.servicedefaults.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D5716EE-97C6-4CA5-BF48-6FAD0BD48864}|Solution Items{9D5716EE-97C6-4CA5-BF48-6FAD0BD48864}|C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Directory.Packages.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{9D5716EE-97C6-4CA5-BF48-6FAD0BD48864}|Solution Items{9D5716EE-97C6-4CA5-BF48-6FAD0BD48864}|solutionrelative:Directory.Packages.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8D53535-2934-47A7-A20B-288F011D4D8F}|WorkService.Infrastructure\\WorkService.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\workservice.infrastructure\\configuration\\projectbaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D53535-2934-47A7-A20B-288F011D4D8F}|WorkService.Infrastructure\\WorkService.Infrastructure.csproj|solutionrelative:workservice.infrastructure\\configuration\\projectbaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\work-service.domain\\workcontext\\projectbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|solutionrelative:work-service.domain\\workcontext\\projectbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\work-service.domain\\workcontext\\projectuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|solutionrelative:work-service.domain\\workcontext\\projectuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\work-service.domain\\workcontext\\workhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|solutionrelative:work-service.domain\\workcontext\\workhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\work-service.domain\\workcontext\\workitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|solutionrelative:work-service.domain\\workcontext\\workitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D53535-2934-47A7-A20B-288F011D4D8F}|WorkService.Infrastructure\\WorkService.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\workservice.infrastructure\\configuration\\workhistoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D53535-2934-47A7-A20B-288F011D4D8F}|WorkService.Infrastructure\\WorkService.Infrastructure.csproj|solutionrelative:workservice.infrastructure\\configuration\\workhistoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\work-service.domain\\projections\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|solutionrelative:work-service.domain\\projections\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4A2EC0-8EA4-6D7C-1B36-98E2272E7334}|Work-Service.API\\Work-Service.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\work-service.api\\controllers\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4A2EC0-8EA4-6D7C-1B36-98E2272E7334}|Work-Service.API\\Work-Service.API.csproj|solutionrelative:work-service.api\\controllers\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D53535-2934-47A7-A20B-288F011D4D8F}|WorkService.Infrastructure\\WorkService.Infrastructure.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\workservice.infrastructure\\configuration\\workitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D53535-2934-47A7-A20B-288F011D4D8F}|WorkService.Infrastructure\\WorkService.Infrastructure.csproj|solutionrelative:workservice.infrastructure\\configuration\\workitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\work-service.domain\\workservice\\primitives\\customdatatypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|solutionrelative:work-service.domain\\workservice\\primitives\\customdatatypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\work-service.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}|Work-Service.Domain\\Work-Service.Domain.csproj|solutionrelative:work-service.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3D63003-825A-495F-BBB5-20CA84A1E335}|Identity.API\\Identity.API.csproj|solutionrelative:identity.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8497B8A1-216C-47DB-BC97-78745ACA8DE5}|Identity.Application\\Identity.Application.csproj|c:\\users\\singh\\projects\\git_projects\\streamin-backend\\streaming-micrsoservices\\identity.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,76 +214,242 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Streaming-Micrsoservices.ServiceDefaults",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj",
-              "RelativeDocumentMoniker": "Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj",
-              "RelativeToolTip": "Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-04T14:05:44.401Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Identity.API\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\DependencyInjection.cs",
-              "RelativeToolTip": "Identity.API\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "20260507174028_RefreshStore-UserId.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Migrations\\20260507174028_RefreshStore-UserId.cs",
+              "RelativeDocumentMoniker": "Identity.Infrastructure\\Migrations\\20260507174028_RefreshStore-UserId.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Migrations\\20260507174028_RefreshStore-UserId.cs",
+              "RelativeToolTip": "Identity.Infrastructure\\Migrations\\20260507174028_RefreshStore-UserId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T12:28:40.515Z",
+              "WhenOpened": "2026-05-07T17:40:28.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Identity.API",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Identity.API.csproj",
-              "RelativeDocumentMoniker": "Identity.API\\Identity.API.csproj",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Identity.API.csproj",
-              "RelativeToolTip": "Identity.API\\Identity.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-04T10:20:44.16Z",
+              "DocumentIndex": 4,
+              "Title": "RefreshTokenStore.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Persistance\\RefreshTokenStore.cs",
+              "RelativeDocumentMoniker": "Identity.Infrastructure\\Persistance\\RefreshTokenStore.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Persistance\\RefreshTokenStore.cs",
+              "RelativeToolTip": "Identity.Infrastructure\\Persistance\\RefreshTokenStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T17:09:20.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "WorkController.cs",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.API\\Controllers\\WorkController.cs",
-              "RelativeDocumentMoniker": "Work-Service.API\\Controllers\\WorkController.cs",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.API\\Controllers\\WorkController.cs",
-              "RelativeToolTip": "Work-Service.API\\Controllers\\WorkController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Program.cs",
+              "RelativeDocumentMoniker": "Identity.API\\Program.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Program.cs",
+              "RelativeToolTip": "Identity.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T13:58:21.841Z",
+              "WhenOpened": "2026-03-01T13:08:01.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserActionsController.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Controllers\\UserActionsController.cs",
+              "RelativeDocumentMoniker": "Identity.API\\Controllers\\UserActionsController.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Controllers\\UserActionsController.cs",
+              "RelativeToolTip": "Identity.API\\Controllers\\UserActionsController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAADAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T06:57:48.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppIdentityDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Persistance\\AppIdentityDbContext.cs",
+              "RelativeDocumentMoniker": "Identity.Infrastructure\\Persistance\\AppIdentityDbContext.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Persistance\\AppIdentityDbContext.cs",
+              "RelativeToolTip": "Identity.Infrastructure\\Persistance\\AppIdentityDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAnwA0AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T18:14:17.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtKeyController.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Controllers\\JwtKeyController.cs",
+              "RelativeDocumentMoniker": "Identity.API\\Controllers\\JwtKeyController.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Controllers\\JwtKeyController.cs",
+              "RelativeToolTip": "Identity.API\\Controllers\\JwtKeyController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T11:04:23.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.API\\Program.cs",
-              "RelativeDocumentMoniker": "Work-Service.API\\Program.cs",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.API\\Program.cs",
-              "RelativeToolTip": "Work-Service.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Identity.API\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Identity.API\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowFUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T13:57:07.41Z",
+              "WhenOpened": "2026-02-22T14:43:09.86Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Jwt\\JwtService.cs",
+              "RelativeDocumentMoniker": "Identity.Infrastructure\\Jwt\\JwtService.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Jwt\\JwtService.cs",
+              "RelativeToolTip": "Identity.Infrastructure\\Jwt\\JwtService.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAowJEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T13:24:51.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260505173730_Update-RefreshStore.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Migrations\\20260505173730_Update-RefreshStore.cs",
+              "RelativeDocumentMoniker": "Identity.Infrastructure\\Migrations\\20260505173730_Update-RefreshStore.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Migrations\\20260505173730_Update-RefreshStore.cs",
+              "RelativeToolTip": "Identity.Infrastructure\\Migrations\\20260505173730_Update-RefreshStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T17:37:31.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Application\\Features\\Users\\UserRegistration.cs",
+              "RelativeDocumentMoniker": "Identity.Application\\Features\\Users\\UserRegistration.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Application\\Features\\Users\\UserRegistration.cs",
+              "RelativeToolTip": "Identity.Application\\Features\\Users\\UserRegistration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T14:16:06.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ValidateResponse.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Application\\DTO\\ValidateResponse.cs",
+              "RelativeDocumentMoniker": "Identity.Application\\DTO\\ValidateResponse.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Application\\DTO\\ValidateResponse.cs",
+              "RelativeToolTip": "Identity.Application\\DTO\\ValidateResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T17:24:49.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Helpers\\Roles.cs",
+              "RelativeDocumentMoniker": "Identity.API\\Helpers\\Roles.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Helpers\\Roles.cs",
+              "RelativeToolTip": "Identity.API\\Helpers\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T14:10:34.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Application\\Service\\IJwtService.cs",
+              "RelativeDocumentMoniker": "Identity.Application\\Service\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Application\\Service\\IJwtService.cs",
+              "RelativeToolTip": "Identity.Application\\Service\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T13:19:09.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "Streaming-Micrsoservices.AppHost\\Program.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Program.cs",
+              "RelativeToolTip": "Streaming-Micrsoservices.AppHost\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T13:28:56.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.SharedKernel\\Class1.cs",
+              "RelativeDocumentMoniker": "Identity.SharedKernel\\Class1.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.SharedKernel\\Class1.cs",
+              "RelativeToolTip": "Identity.SharedKernel\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T14:37:39.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationbDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\WorkService.Infrastructure\\ApplicationbDbContext.cs",
+              "RelativeDocumentMoniker": "WorkService.Infrastructure\\ApplicationbDbContext.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\WorkService.Infrastructure\\ApplicationbDbContext.cs",
+              "RelativeToolTip": "WorkService.Infrastructure\\ApplicationbDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAACyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T18:19:42.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\WorkService.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "WorkService.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\WorkService.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "WorkService.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T15:31:54.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Identity.API\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\WeatherForecast.cs",
+              "RelativeToolTip": "Identity.API\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T13:08:00.682Z"
             },
             {
               "$type": "Document",
@@ -183,110 +465,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Streaming-Micrsoservices.AppHost.csproj",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
-              "RelativeDocumentMoniker": "Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
-              "RelativeToolTip": "Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-28T13:31:02.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Identity.API\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Identity.API\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T14:43:09.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Program.cs",
-              "RelativeDocumentMoniker": "Identity.API\\Program.cs",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Program.cs",
-              "RelativeToolTip": "Identity.API\\Program.cs",
+              "DocumentIndex": 21,
+              "Title": "Identity.API.csproj",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Identity.API.csproj",
+              "RelativeDocumentMoniker": "Identity.API\\Identity.API.csproj",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Identity.API.csproj",
+              "RelativeToolTip": "Identity.API\\Identity.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T13:08:01.479Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-25T07:05:06.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Jwt\\JwtService.cs",
-              "RelativeDocumentMoniker": "Identity.Infrastructure\\Jwt\\JwtService.cs",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Jwt\\JwtService.cs",
-              "RelativeToolTip": "Identity.Infrastructure\\Jwt\\JwtService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAEcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:24:51.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JwtKeyController.cs",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Controllers\\JwtKeyController.cs",
-              "RelativeDocumentMoniker": "Identity.API\\Controllers\\JwtKeyController.cs",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Controllers\\JwtKeyController.cs",
-              "RelativeToolTip": "Identity.API\\Controllers\\JwtKeyController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T11:04:23.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "JwkDTO.cs",
               "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Application\\DTO\\JwkDTO.cs",
               "RelativeDocumentMoniker": "Identity.Application\\DTO\\JwkDTO.cs",
               "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Application\\DTO\\JwkDTO.cs",
               "RelativeToolTip": "Identity.Application\\DTO\\JwkDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T13:25:01.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T13:25:01.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Identity.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Identity.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-04T10:20:51.432Z",
-              "EditorCaption": ""
+              "DocumentIndex": 22,
+              "Title": "Identity.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Application\\Identity.Application.csproj",
+              "RelativeDocumentMoniker": "Identity.Application\\Identity.Application.csproj",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Application\\Identity.Application.csproj",
+              "RelativeToolTip": "Identity.Application\\Identity.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-03T14:33:33.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Directory.Packages.props",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Directory.Packages.props",
-              "RelativeDocumentMoniker": "Directory.Packages.props",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Directory.Packages.props",
-              "RelativeToolTip": "Directory.Packages.props",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-02-28T13:50:16.595Z"
+              "DocumentIndex": 20,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.SharedKernel\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Identity.SharedKernel\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.SharedKernel\\ApplicationUser.cs",
+              "RelativeToolTip": "Identity.SharedKernel\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T14:38:50.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 27,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\appsettings.json",
               "RelativeDocumentMoniker": "Identity.API\\appsettings.json",
@@ -294,37 +521,11 @@
               "RelativeToolTip": "Identity.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-08T18:10:34.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T18:10:34.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "Identity.API\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\WeatherForecast.cs",
-              "RelativeToolTip": "Identity.API\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T13:08:00.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IJwtService.cs",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Application\\Features\\IJwtService.cs",
-              "RelativeDocumentMoniker": "Identity.Application\\Features\\IJwtService.cs",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Application\\Features\\IJwtService.cs",
-              "RelativeToolTip": "Identity.Application\\Features\\IJwtService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:19:09.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 29,
               "Title": "Work-Service.API.csproj",
               "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.API\\Work-Service.API.csproj",
               "RelativeDocumentMoniker": "Work-Service.API\\Work-Service.API.csproj",
@@ -332,24 +533,119 @@
               "RelativeToolTip": "Work-Service.API\\Work-Service.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-01T13:57:21.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T13:57:21.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 30,
+              "Title": "Work-Service.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\Work-Service.Domain.csproj",
+              "RelativeDocumentMoniker": "Work-Service.Domain\\Work-Service.Domain.csproj",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\Work-Service.Domain.csproj",
+              "RelativeToolTip": "Work-Service.Domain\\Work-Service.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-19T12:49:46.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "WorkService.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\WorkService.Infrastructure\\WorkService.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "WorkService.Infrastructure\\WorkService.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\WorkService.Infrastructure\\WorkService.Infrastructure.csproj",
+              "RelativeToolTip": "WorkService.Infrastructure\\WorkService.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-19T12:49:46.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Program.cs",
-              "RelativeDocumentMoniker": "Streaming-Micrsoservices.AppHost\\Program.cs",
-              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Program.cs",
-              "RelativeToolTip": "Streaming-Micrsoservices.AppHost\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.API\\Program.cs",
+              "RelativeDocumentMoniker": "Work-Service.API\\Program.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.API\\Program.cs",
+              "RelativeToolTip": "Work-Service.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T13:28:56.89Z"
+              "WhenOpened": "2026-03-01T13:57:07.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
+              "Title": "Identity.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Identity.Infrastructure\\Identity.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
+              "RelativeToolTip": "Identity.Infrastructure\\Identity.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-19T12:49:42.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Streaming-Micrsoservices.AppHost.csproj",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
+              "RelativeDocumentMoniker": "Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
+              "RelativeToolTip": "Streaming-Micrsoservices.AppHost\\Streaming-Micrsoservices.AppHost.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-28T13:31:02.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Identity.API.http",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Identity.API.http",
+              "RelativeDocumentMoniker": "Identity.API\\Identity.API.http",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Identity.API.http",
+              "RelativeToolTip": "Identity.API\\Identity.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-05-02T13:45:04.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Identity.API\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\DependencyInjection.cs",
+              "RelativeToolTip": "Identity.API\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T12:28:40.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Streaming-Micrsoservices.ServiceDefaults.csproj",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj",
+              "RelativeDocumentMoniker": "Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj",
+              "RelativeToolTip": "Streaming-Micrsoservices.ServiceDefaults\\Streaming-Micrsoservices.ServiceDefaults.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-04T14:05:44.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProjectUserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\WorkService.Infrastructure\\Configuration\\ProjectUserConfiguration.cs",
+              "RelativeDocumentMoniker": "WorkService.Infrastructure\\Configuration\\ProjectUserConfiguration.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\WorkService.Infrastructure\\Configuration\\ProjectUserConfiguration.cs",
+              "RelativeToolTip": "WorkService.Infrastructure\\Configuration\\ProjectUserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T13:25:10.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Streaming-Micrsoservices.AppHost\\appsettings.json",
               "RelativeDocumentMoniker": "Streaming-Micrsoservices.AppHost\\appsettings.json",
@@ -361,7 +657,175 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 34,
+              "Title": "20260425071024_Create-Database.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Migrations\\20260425071024_Create-Database.cs",
+              "RelativeDocumentMoniker": "Identity.Infrastructure\\Migrations\\20260425071024_Create-Database.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Migrations\\20260425071024_Create-Database.cs",
+              "RelativeToolTip": "Identity.Infrastructure\\Migrations\\20260425071024_Create-Database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T07:10:25.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Workitem.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\WorkContext\\Workitem.cs",
+              "RelativeDocumentMoniker": "Work-Service.Domain\\WorkContext\\Workitem.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\WorkContext\\Workitem.cs",
+              "RelativeToolTip": "Work-Service.Domain\\WorkContext\\Workitem.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwAwAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T04:47:25.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProjectBase.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\WorkContext\\ProjectBase.cs",
+              "RelativeDocumentMoniker": "Work-Service.Domain\\WorkContext\\ProjectBase.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\WorkContext\\ProjectBase.cs",
+              "RelativeToolTip": "Work-Service.Domain\\WorkContext\\ProjectBase.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T09:11:22.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "WorkHistory.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\WorkContext\\WorkHistory.cs",
+              "RelativeDocumentMoniker": "Work-Service.Domain\\WorkContext\\WorkHistory.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\WorkContext\\WorkHistory.cs",
+              "RelativeToolTip": "Work-Service.Domain\\WorkContext\\WorkHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T04:51:31.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ProjectUser.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\WorkContext\\ProjectUser.cs",
+              "RelativeDocumentMoniker": "Work-Service.Domain\\WorkContext\\ProjectUser.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\WorkContext\\ProjectUser.cs",
+              "RelativeToolTip": "Work-Service.Domain\\WorkContext\\ProjectUser.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T13:07:27.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProjectBaseConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\WorkService.Infrastructure\\Configuration\\ProjectBaseConfiguration.cs",
+              "RelativeDocumentMoniker": "WorkService.Infrastructure\\Configuration\\ProjectBaseConfiguration.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\WorkService.Infrastructure\\Configuration\\ProjectBaseConfiguration.cs",
+              "RelativeToolTip": "WorkService.Infrastructure\\Configuration\\ProjectBaseConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T18:34:49.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Directory.Packages.props",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Directory.Packages.props",
+              "RelativeDocumentMoniker": "Directory.Packages.props",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Directory.Packages.props",
+              "RelativeToolTip": "Directory.Packages.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-28T13:50:16.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "WorkHistoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\WorkService.Infrastructure\\Configuration\\WorkHistoryConfiguration.cs",
+              "RelativeDocumentMoniker": "WorkService.Infrastructure\\Configuration\\WorkHistoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\WorkService.Infrastructure\\Configuration\\WorkHistoryConfiguration.cs",
+              "RelativeToolTip": "WorkService.Infrastructure\\Configuration\\WorkHistoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T15:56:29.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "WorkController.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.API\\Controllers\\WorkController.cs",
+              "RelativeDocumentMoniker": "Work-Service.API\\Controllers\\WorkController.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.API\\Controllers\\WorkController.cs",
+              "RelativeToolTip": "Work-Service.API\\Controllers\\WorkController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T13:58:21.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CustomDataTypes.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\WorkService\\Primitives\\CustomDataTypes.cs",
+              "RelativeDocumentMoniker": "Work-Service.Domain\\WorkService\\Primitives\\CustomDataTypes.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\WorkService\\Primitives\\CustomDataTypes.cs",
+              "RelativeToolTip": "Work-Service.Domain\\WorkService\\Primitives\\CustomDataTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T04:55:36.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\Projections\\User.cs",
+              "RelativeDocumentMoniker": "Work-Service.Domain\\Projections\\User.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\Projections\\User.cs",
+              "RelativeToolTip": "Work-Service.Domain\\Projections\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T03:51:06.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "WorkItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\WorkService.Infrastructure\\Configuration\\WorkItemConfiguration.cs",
+              "RelativeDocumentMoniker": "WorkService.Infrastructure\\Configuration\\WorkItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\WorkService.Infrastructure\\Configuration\\WorkItemConfiguration.cs",
+              "RelativeToolTip": "WorkService.Infrastructure\\Configuration\\WorkItemConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T15:56:08.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Work-Service.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Work-Service.Domain\\Class1.cs",
+              "RelativeToolTip": "Work-Service.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T04:14:12.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Identity.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Identity.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-04T10:20:51.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Application\\Class1.cs",
               "RelativeDocumentMoniker": "Identity.Application\\Class1.cs",
@@ -373,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 50,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\singh\\projects\\git_projects\\streamin-backend\\Streaming-Micrsoservices\\Identity.Infrastructure\\Class1.cs",
               "RelativeDocumentMoniker": "Identity.Infrastructure\\Class1.cs",

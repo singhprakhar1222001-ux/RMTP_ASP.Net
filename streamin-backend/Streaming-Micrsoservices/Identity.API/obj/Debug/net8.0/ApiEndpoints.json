@@ -20,13 +20,51 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Identity.API.Controllers.UserActionsController",
+    "Method": "CreateUser",
+    "RelativePath": "api/UserActions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userCreateDto",
+        "Type": "Identity.API.Controllers.UserCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Identity.API.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLogin",
+        "Type": "Identity.API.Controllers.UserLogin",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Identity.API.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "Login",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "userLogin",
+        "Type": "Identity.API.Controllers.UserLogin",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {

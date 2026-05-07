@@ -1,0 +1,13 @@
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.SharedKernel\bin\Debug\net8.0\Identity.SharedKernel.deps.json
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.SharedKernel\bin\Debug\net8.0\Identity.SharedKernel.dll
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.SharedKernel\bin\Debug\net8.0\Identity.SharedKernel.pdb
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.SharedKernel\obj\Debug\net8.0\Identity.SharedKernel.csproj.AssemblyReference.cache
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.SharedKernel\obj\Debug\net8.0\Identity.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.SharedKernel\obj\Debug\net8.0\Identity.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.SharedKernel\obj\Debug\net8.0\Identity.SharedKernel.AssemblyInfo.cs
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.SharedKernel\obj\Debug\net8.0\Identity.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.SharedKernel\obj\Debug\net8.0\Identity.SharedKernel.sourcelink.json
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.SharedKernel\obj\Debug\net8.0\Identity.SharedKernel.dll
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.SharedKernel\obj\Debug\net8.0\refint\Identity.SharedKernel.dll
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.SharedKernel\obj\Debug\net8.0\Identity.SharedKernel.pdb
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.SharedKernel\obj\Debug\net8.0\ref\Identity.SharedKernel.dll

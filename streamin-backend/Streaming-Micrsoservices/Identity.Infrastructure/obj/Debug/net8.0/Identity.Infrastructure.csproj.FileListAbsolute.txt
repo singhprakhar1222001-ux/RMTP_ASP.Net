@@ -1,4 +1,5 @@
 C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Infrastructure\bin\Debug\net8.0\Identity.Infrastructure.deps.json
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Infrastructure\bin\Debug\net8.0\Identity.Infrastructure.runtimeconfig.json
 C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Infrastructure\bin\Debug\net8.0\Identity.Infrastructure.dll
 C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Infrastructure\bin\Debug\net8.0\Identity.Infrastructure.pdb
 C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Infrastructure\bin\Debug\net8.0\Identity.Application.dll
@@ -13,4 +14,7 @@ C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\I
 C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Infrastructure\obj\Debug\net8.0\Identity.Infrastructure.dll
 C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Infrastructure\obj\Debug\net8.0\refint\Identity.Infrastructure.dll
 C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Infrastructure\obj\Debug\net8.0\Identity.Infrastructure.pdb
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Infrastructure\obj\Debug\net8.0\Identity.Infrastructure.genruntimeconfig.cache
 C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Infrastructure\obj\Debug\net8.0\ref\Identity.Infrastructure.dll
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Infrastructure\bin\Debug\net8.0\Identity.SharedKernel.dll
+C:\Users\singh\projects\git_projects\streamin-backend\Streaming-Micrsoservices\Identity.Infrastructure\bin\Debug\net8.0\Identity.SharedKernel.pdb

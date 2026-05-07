@@ -28,7 +28,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Streaming-Micrsoservices.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76610e399dbd71d0e3c31bd538af57003fe5e943")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf235dc8917292bc243d16e29b8a52d168e542c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Streaming-Micrsoservices.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Streaming-Micrsoservices.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
