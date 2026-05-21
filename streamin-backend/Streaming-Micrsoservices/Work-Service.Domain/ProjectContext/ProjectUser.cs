@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Work_Service.Domain.WorkContext
+namespace Work_Service.Domain.ProjectContext
 {
     public enum UserRole
     {
@@ -15,9 +15,9 @@ namespace Work_Service.Domain.WorkContext
     {
         public ProjectUser(Guid id, string name, Role role)
         {
-            this.Id = id;
-            this.Name = name;
-            this._role = role;
+            Id = id;
+            Name = name;
+            _role = role;
         }
         public Guid Id { get; private set; }
 

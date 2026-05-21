@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Work_Service.Domain.WorkContext;
+using Work_Service.Domain.ProjectContext;
 
 namespace WorkService.Infrastructure.Configuration
 {

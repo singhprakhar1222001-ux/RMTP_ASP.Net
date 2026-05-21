@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Work_Service.Domain.WorkContext
+namespace Work_Service.Domain.ProjectContext
 {
     public class ProjectBase
     {
@@ -15,7 +15,7 @@ namespace Work_Service.Domain.WorkContext
             this.Name = Name;
             this.Description = Description;
             this.ProjectHead = ProjectHead;
-            this.ProjectMembers = userDetails;
+            ProjectMembers = userDetails;
 
         }
         public Guid Id { get;}
@@ -37,6 +37,8 @@ namespace Work_Service.Domain.WorkContext
             return new ProjectBase(guid, Name, Description, members, Projecthead);
             
         }
+
+        public void AddUserToProject()
     }
 
 

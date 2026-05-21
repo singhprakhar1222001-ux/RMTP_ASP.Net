@@ -44,8 +44,14 @@ namespace Work_Service.Domain.WorkContext
             //some validation
             return new Workitem(Name, description, comment, ProjectId,assignedId,managerId,Deadline);
 
+
+
             //some event
         }
+
+
+        //start with simple assignment events
+        
 
         
     }
