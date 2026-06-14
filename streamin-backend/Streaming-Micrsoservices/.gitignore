@@ -1,0 +1,61 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+packages/
+!**/packages/build/
+
+# ASP.NET generated
+wwwroot/lib/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Publish output
+publish/
+
+# Database files
+*.mdf
+*.ldf
+
+# Local secrets
+appsettings.Development.json
+secrets.json
+
+# Aspire
+.aspire/
+aspire-manifest.json
+
+# Copilot indexing
+.copilot/
+.github/copilot/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
