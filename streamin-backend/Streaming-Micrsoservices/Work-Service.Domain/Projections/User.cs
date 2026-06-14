@@ -10,20 +10,24 @@ namespace Work_Service.Domain.Projections
 {
     public class User
     {
-        private Guid Userid {  get; set; }
+        private User() { }
+        public Guid Userid {  get; init; }
 
-        private Role role { get; set; }
+        public Role role { get; init; }
 
-        private string name { get; set; }
+        public string email { get; init; }
 
-        private string email { get; set; }
-
-        private User(Guid userid, Role role, string name, string email)
+        private User(Guid userid, Role role, string email)
         {
             Userid = userid;
             this.role = role;
-            this.name = name;
             this.email = email;
+        }
+
+        public static User CreateUser(Guid userid, Role role, string email)
+        {
+            var user=new User(userid, role, email);
+            return user;
         }
     }
 }

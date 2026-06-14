@@ -1,4 +1,5 @@
-﻿using Identity.SharedKernel;
+﻿using Identity.Infrastructure.Outbox;
+using Identity.SharedKernel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,11 @@ namespace Identity.Infrastructure.Persistance
             builder.Entity<RefreshTokenStore>(
                 b => b.HasKey(b => b.Id));
 
+            builder.Entity<OutboxMessage>(
+                b => {
+                    b.HasKey(b => b.Id);
+                    });
+
             builder.Entity<AppUser>(entity =>
             {
                 entity.Property(e => e.EnableNotifications).HasDefaultValue(true);
@@ -27,11 +33,11 @@ namespace Identity.Infrastructure.Persistance
             builder.HasDefaultSchema("userschema");
 
             
-
+            
             
         }
-
         public DbSet<RefreshTokenStore> RefreshTokens { get; set; }
+        public DbSet<OutboxMessage> OutboxMessages { get; set; }
     }
 
     

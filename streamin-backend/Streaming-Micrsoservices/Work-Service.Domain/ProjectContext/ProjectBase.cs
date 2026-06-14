@@ -9,13 +9,14 @@ namespace Work_Service.Domain.ProjectContext
 {
     public class ProjectBase
     {
-        private ProjectBase(Guid guid, string Name, string Description, List<Guid> userDetails, Guid ProjectHead)
+        public ProjectBase() { }
+        private ProjectBase(Guid guid, string Name, string Description, Guid ProjectHead)
         {
             Id = guid;
             this.Name = Name;
             this.Description = Description;
             this.ProjectHead = ProjectHead;
-            ProjectMembers = userDetails;
+            
 
         }
         public Guid Id { get;}
@@ -25,7 +26,7 @@ namespace Work_Service.Domain.ProjectContext
 
         public Guid ProjectHead { get;private set; }
 
-        public IReadOnlyCollection<Guid> ProjectMembers { get; private set; }
+        
 
         public static ProjectBase? CreateProject(List <Guid> members, string Name, string Description, Guid Projecthead)
         {
@@ -34,11 +35,11 @@ namespace Work_Service.Domain.ProjectContext
                 throw new UserCreationException("User validation failed");
             }
             Guid guid = Guid.NewGuid();
-            return new ProjectBase(guid, Name, Description, members, Projecthead);
+            return new ProjectBase(guid, Name, Description, Projecthead);
             
         }
 
-        public void AddUserToProject()
+        
     }
 
 
@@ -46,7 +47,7 @@ namespace Work_Service.Domain.ProjectContext
     {
         Manager, 
         SubManager,
-        Employee
+        Employee,
     }
     public record UserDetails(string Name, Role Role);
 

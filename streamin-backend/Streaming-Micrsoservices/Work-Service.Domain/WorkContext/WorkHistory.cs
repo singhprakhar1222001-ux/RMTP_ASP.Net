@@ -7,8 +7,9 @@ using Work_Service.Domain.WorkService.Primitives;
 
 namespace Work_Service.Domain.WorkContext
 {
-    internal class WorkHistory
+    public class WorkHistory
     {
+        private WorkHistory() { }
         public Guid id {  get;}
         public DateTime LogTime {  get; private set; }
 

@@ -1,5 +1,4 @@
-﻿using Identity.Application.Features;
-using Microsoft.IdentityModel.JsonWebTokens;
+﻿using Microsoft.IdentityModel.JsonWebTokens;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -13,6 +12,7 @@ using Identity.Infrastructure.Persistance;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Identity.SharedKernel;
+using Identity.Application.Service.Jwt;
 
 namespace Identity.Infrastructure.Jwt
 {

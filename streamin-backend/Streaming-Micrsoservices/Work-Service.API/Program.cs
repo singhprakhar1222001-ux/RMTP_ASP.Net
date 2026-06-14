@@ -1,4 +1,10 @@
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using RabbitMQ.Client;
+using Work_Service.API;
+using WorkService.Infrastructure.Messages.Connection;
+using WorkService.Infrastructure.Messages.Topology;
+using WorkService.Persistance;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +36,13 @@ builder.Services.AddAuthentication()
     );
 
 builder.Services.AddAuthorization();
+builder.Services.AddDbContext<ApplicationbDbContext>(
+    (options) =>
+    {
+        options.UseNpgsql(builder.Configuration.GetConnectionString("workservicedb"));
+    }
+    );
+builder.Services.addDependency();
 var app = builder.Build();
 
 app.MapDefaultEndpoints();
@@ -39,6 +52,11 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    using var scope = app.Services.CreateScope();
+    using var dbcontext= scope.ServiceProvider.GetRequiredService<ApplicationbDbContext>();
+    var topologyInitializer = scope.ServiceProvider.GetRequiredService<ITopologyInitializer>();
+    await topologyInitializer.Initialize();
+    dbcontext.Database.Migrate();
 }
 
 app.UseHttpsRedirection();

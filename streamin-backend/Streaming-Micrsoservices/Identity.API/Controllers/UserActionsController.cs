@@ -1,4 +1,6 @@
-﻿using Identity.API.Helpers;
+﻿using Contracts.Identity.Implementations;
+using Identity.API.Helpers;
+using Identity.Application.Abstractions;
 using Identity.Infrastructure.Persistance;
 using Identity.SharedKernel;
 using Microsoft.AspNetCore.Http;
@@ -15,12 +17,14 @@ namespace Identity.API.Controllers
         private UserManager<AppUser> _userManager;
         private readonly AppIdentityDbContext _dbContext;
         private readonly RoleManager<IdentityRole> roleManager;
+        private readonly IEventContext _eventContext;
 
-        public UserActionsController(UserManager<AppUser> userManager, AppIdentityDbContext dbContext, RoleManager<IdentityRole> roleManager    )
+        public UserActionsController(UserManager<AppUser> userManager, AppIdentityDbContext dbContext, RoleManager<IdentityRole> roleManager, IEventContext eventContext)
         {
             _userManager = userManager;
             _dbContext = dbContext;
             this.roleManager = roleManager;
+            _eventContext = eventContext;
         }
         [HttpPost]
         public async Task<IActionResult> CreateUser([FromBody] UserCreateDto userCreateDto)
@@ -42,8 +46,10 @@ namespace Identity.API.Controllers
             }
 
             await _userManager.AddToRoleAsync(user, Roles.Member);
+            _eventContext.AddEvent(
+                new UserCreatedIntegrationEvent(Guid.NewGuid(),UserName:userCreateDto.UserName,Membership:Roles.Member));
             await _dbContext.SaveChangesAsync();
-            transaction.Commit();
+            await transaction.CommitAsync();
 
             return Ok(new {msg="new User Created Successfully"});
         }

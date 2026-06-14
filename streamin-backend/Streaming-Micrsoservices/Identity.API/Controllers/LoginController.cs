@@ -1,4 +1,4 @@
-﻿using Identity.Application.Features;
+﻿using Identity.Application.Service.Jwt;
 using Identity.SharedKernel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;

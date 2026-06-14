@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using Identity.API.Helpers;
 using Identity.SharedKernel;
+using Identity.Infrastructure.Interceptor;
+using Identity.Infrastructure.Messages.Topology;
 
 namespace Identity.API;
 
@@ -21,9 +23,11 @@ public class Program
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
-        builder.Services.AddDbContext<AppIdentityDbContext>(options =>
+        builder.Services.AddDbContext<AppIdentityDbContext>((sp,options) =>
         {
-            options.UseNpgsql(builder.Configuration.GetConnectionString("identitydb"));
+            var interceptor = sp.GetServices<EventInterceptor>();
+            options.UseNpgsql(builder.Configuration.GetConnectionString("identitydb"))
+                 .AddInterceptors(interceptor);
         }
         );
 
@@ -47,6 +51,7 @@ public class Program
 
             using var scope = app.Services.CreateScope();
             var dbcontext = scope.ServiceProvider.GetRequiredService<AppIdentityDbContext>();
+            var topologyInitializor = scope.ServiceProvider.GetRequiredService<IToplogyInitializor>();
             dbcontext.Database.Migrate();
 
             var roleService = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
@@ -59,6 +64,11 @@ public class Program
             {
                 await roleService.CreateAsync(new IdentityRole(Roles.Member));
             }
+            //initialize exchange
+
+            await topologyInitializor.Initialize();
+
+            
         }
 
         app.UseHttpsRedirection();
