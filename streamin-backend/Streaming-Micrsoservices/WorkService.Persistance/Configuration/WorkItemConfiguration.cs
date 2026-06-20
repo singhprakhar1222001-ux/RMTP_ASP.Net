@@ -20,6 +20,8 @@ namespace WorkService.Persistance.Configuration
                 .WithOne()
                 .HasForeignKey(x=>x.WorkItemID)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            
                 
             
         }

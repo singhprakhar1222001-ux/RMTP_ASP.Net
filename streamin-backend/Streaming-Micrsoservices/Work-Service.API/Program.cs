@@ -5,6 +5,7 @@ using Work_Service.API;
 using WorkService.Infrastructure.Messages.Connection;
 using WorkService.Infrastructure.Messages.Topology;
 using WorkService.Persistance;
+using WorkService.Persistance.Interceptor;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,9 +38,12 @@ builder.Services.AddAuthentication()
 
 builder.Services.AddAuthorization();
 builder.Services.AddDbContext<ApplicationbDbContext>(
-    (options) =>
+    (sp,options) =>
     {
-        options.UseNpgsql(builder.Configuration.GetConnectionString("workservicedb"));
+        var interceptor = sp.GetRequiredService<EventInterceptor>();
+        options.UseNpgsql(builder.Configuration.GetConnectionString("workservicedb"))
+        .AddInterceptors(interceptor);
+        ;
     }
     );
 builder.Services.addDependency();

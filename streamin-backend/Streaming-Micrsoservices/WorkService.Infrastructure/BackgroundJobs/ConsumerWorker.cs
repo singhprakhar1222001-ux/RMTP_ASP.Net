@@ -1,6 +1,4 @@
-﻿
-using Contracts.Identity.Implementations;
-using MediatR;
+﻿using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
@@ -17,6 +15,7 @@ using WorkService.Infrastructure.Messages.Connection;
 using Work_Service.Application.Projections;
 using WorkService.Infrastructure.Messages.Topology;
 using RabbitMQ.Client;
+using Contracts.Identity.IntegrationEvents.Implementations;
 
 namespace WorkService.Infrastructure.BackgroundJobs
 {
@@ -31,40 +30,39 @@ namespace WorkService.Infrastructure.BackgroundJobs
             _scopeFactory = scopeFactory;
         }
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
-        {
-            while (!stoppingToken.IsCancellationRequested)
+        {    
+            
+            var connection = await _connection.GetConnection();
+            var channel = await connection.CreateChannelAsync();
+
+            var consumer = new AsyncEventingBasicConsumer(channel);
+            consumer.ReceivedAsync += async (sender, EventArgs) =>
             {
-                using var scope = _scopeFactory.CreateScope();
-                var _mediator = scope.ServiceProvider.GetRequiredService<IMediator>();
                 try
                 {
-                    using var connection = await _connection.GetConnection();
-                    using var channel = await connection.CreateChannelAsync();
-
-                    var consumer = new AsyncEventingBasicConsumer(channel);
-                    consumer.ReceivedAsync += async (sender, EventArgs) =>
+                    using var scope = _scopeFactory.CreateScope();
+                    var _mediator = scope.ServiceProvider.GetRequiredService<IMediator>();
+                    //Console.WriteLine($"Event arg redelivered: {EventArgs.Redelivered}");
+                    byte[] message = EventArgs.Body.ToArray();
+                    string messageString = Encoding.UTF8.GetString(message);
+                    var messageBody = JsonConvert.DeserializeObject<UserCreatedIntegrationEvent>(messageString);
+                    if (messageBody != null)
                     {
-                        Console.WriteLine($"Event arg redelivered: {EventArgs.Redelivered}");
-                        byte[] message = EventArgs.Body.ToArray();
-                        string messageString = Encoding.UTF8.GetString(message);
-                        var messageBody = JsonConvert.DeserializeObject<UserCreatedIntegrationEvent>(messageString);
-                        if (messageBody != null)
-                        {
-                            UserCreateRequestCommand userCreateRequestCommand = new UserCreateRequestCommand(messageBody.UserName, messageBody.userId, messageBody.Membership);
-                            await _mediator.Send(userCreateRequestCommand);
-                        }
+                        UserCreateRequestCommand userCreateRequestCommand = new UserCreateRequestCommand(messageBody.UserName, messageBody.userId, messageBody.Membership);
+                        await _mediator.Send(userCreateRequestCommand);
+                    }
 
-                        await ((AsyncEventingBasicConsumer)sender).Channel.BasicAckAsync(EventArgs.DeliveryTag, multiple: false);
-                        //here we will implement idempotent read too.
-                    };
-                    await channel.BasicConsumeAsync(Topology.QueueName, autoAck: false, consumer);
+                    await ((AsyncEventingBasicConsumer)sender).Channel.BasicAckAsync(EventArgs.DeliveryTag, multiple: false);
                 }
-                catch (Exception ex)
-                {
-                    throw ex;
+                catch (Exception ex) {
+                    throw;
                 }
-                await Task.Delay(10000, stoppingToken);
-            }
+                //here we will implement idempotent read too.
+            };
+            await channel.BasicConsumeAsync(Topology.QueueName, autoAck: false, consumer);
+            
+            await Task.Delay(Timeout.Infinite, stoppingToken);
+            
         }
     }
 

@@ -1,4 +1,4 @@
-﻿using Contracts.Identity;
+﻿using Contracts;
 using Identity.Application.Abstractions;
 using System;
 using System.Collections.Generic;

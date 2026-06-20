@@ -1,11 +1,10 @@
-﻿using Contracts.Identity;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Contracts.Identity.Implementations
+namespace Contracts.Identity.IntegrationEvents.Implementations
 {
     public record UserCreatedIntegrationEvent (
         Guid userId,

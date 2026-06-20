@@ -22,17 +22,18 @@ namespace Identity.API.Controllers
         private readonly IJwtService _jwtService;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly SignInManager<AppUser> signInManager;
-        public LoginController(IJwtService jwtService, IHttpContextAccessor httpContextAccessor, SignInManager<AppUser> signInManager) {
+        private readonly UserManager<AppUser> _userManager;
+        public LoginController(IJwtService jwtService, IHttpContextAccessor httpContextAccessor, SignInManager<AppUser> signInManager,UserManager<AppUser> userManager) {
             _jwtService = jwtService;
             _httpContextAccessor = httpContextAccessor;
             this.signInManager = signInManager;
+            _userManager = userManager;
         }
         
         [HttpPost]
         [HttpGet]
         public async Task<IActionResult> Login([FromBody] UserLogin? userLogin)
         {
-
             var httpContext = _httpContextAccessor.HttpContext;
             var header = httpContext.Request.Headers;
             if (header["GrantType"] == "Refresh")
@@ -60,12 +61,15 @@ namespace Identity.API.Controllers
             }
             else
             {
-                var result = await signInManager.PasswordSignInAsync(
-                           userLogin.UserName, userLogin.Password, isPersistent: false, lockoutOnFailure: true
+                var user= await _userManager.FindByNameAsync(userLogin.UserName);
+                var result = await signInManager.CheckPasswordSignInAsync(
+                           user, userLogin.Password, lockoutOnFailure: true
                 );
+
                 if (!result.Succeeded) {
                     return Unauthorized("Credentials provided were incorrect");
                 }
+                
                 var token = await _jwtService.GenerateToken(userLogin.UserName);
                 string response = await _jwtService.GenerateRefreshToken(userLogin.UserName);
                 CookieOptions cookieOptions = new CookieOptions

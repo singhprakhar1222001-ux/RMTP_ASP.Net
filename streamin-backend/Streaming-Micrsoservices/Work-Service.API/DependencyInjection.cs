@@ -6,6 +6,7 @@ using Work_Service.Domain.Projections;
 using WorkService.Infrastructure.BackgroundJobs;
 using WorkService.Infrastructure.Messages.Connection;
 using WorkService.Infrastructure.Messages.Topology;
+using WorkService.Persistance.Interceptor;
 using WorkService.Persistance.UnitOfWork;
 
 namespace Work_Service.API
@@ -16,7 +17,8 @@ namespace Work_Service.API
             service.AddSingleton<IConnectionManager, ConnectionManager>();
             service.AddScoped<IUnitofWork<User>, UnitOfWork>();
             service.AddMediatR(typeof(UserCreateRequestCommand).Assembly);
-            service.AddHostedService<ConsumerWorker>(); 
+            service.AddHostedService<ConsumerWorker>();
+            service.AddSingleton<EventInterceptor>();
             service.AddSingleton<ITopologyInitializer, TopologyInitializer>();
             return service;
         }

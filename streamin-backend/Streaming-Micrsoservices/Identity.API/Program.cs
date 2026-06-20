@@ -54,16 +54,7 @@ public class Program
             var topologyInitializor = scope.ServiceProvider.GetRequiredService<IToplogyInitializor>();
             dbcontext.Database.Migrate();
 
-            var roleService = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-
-            if(!await roleService.RoleExistsAsync(Roles.Head))
-            {
-                await roleService.CreateAsync(new IdentityRole(Roles.Head));
-            }
-            if(!await roleService.RoleExistsAsync(Roles.Member))
-            {
-                await roleService.CreateAsync(new IdentityRole(Roles.Member));
-            }
+            
             //initialize exchange
 
             await topologyInitializor.Initialize();

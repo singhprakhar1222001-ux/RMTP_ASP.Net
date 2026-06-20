@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WorkService.Persistance.Outbox;
 
 namespace WorkService.Persistance
 {
@@ -16,7 +17,11 @@ namespace WorkService.Persistance
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationbDbContext).Assembly);//using reflections to find impplementations of IEntityTypeConfiguration, this is also the basis of mark interfaces
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationbDbContext).Assembly);
+            modelBuilder.Entity<OutboxMessage>().HasKey(x => x.Id);
+            //using reflections to find impplementations of IEntityTypeConfiguration, this is also the basis of mark interfaces
+            
         }
+        public DbSet<OutboxMessage> outbox;
     }
 }

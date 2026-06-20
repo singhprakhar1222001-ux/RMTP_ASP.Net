@@ -16,14 +16,12 @@ namespace Identity.API.Controllers
     {
         private UserManager<AppUser> _userManager;
         private readonly AppIdentityDbContext _dbContext;
-        private readonly RoleManager<IdentityRole> roleManager;
         private readonly IEventContext _eventContext;
 
         public UserActionsController(UserManager<AppUser> userManager, AppIdentityDbContext dbContext, RoleManager<IdentityRole> roleManager, IEventContext eventContext)
         {
             _userManager = userManager;
             _dbContext = dbContext;
-            this.roleManager = roleManager;
             _eventContext = eventContext;
         }
         [HttpPost]

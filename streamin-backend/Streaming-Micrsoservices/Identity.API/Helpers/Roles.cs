@@ -6,6 +6,9 @@
 
         public const string Member= "member";
 
+        public const string Admin="Admin";
+        public const string subadmin = "SubAdmin";
+
         
     }
 }

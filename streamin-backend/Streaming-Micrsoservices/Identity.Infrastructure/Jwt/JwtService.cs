@@ -20,11 +20,13 @@ namespace Identity.Infrastructure.Jwt
     {
         private readonly AppIdentityDbContext _context;
         private readonly SignInManager<AppUser> _signInManager;
+        private readonly UserManager<AppUser> _userManager;
 
-        public JwtService(AppIdentityDbContext context, SignInManager<AppUser> userManager)
+        public JwtService(AppIdentityDbContext context, SignInManager<AppUser> signInManager, UserManager<AppUser> userManager)
         {
             _context = context;
-            _signInManager = userManager;
+            _signInManager = signInManager;
+            _userManager= userManager;
         }
 
         public async Task GenerateSecurityKey()
@@ -42,6 +44,9 @@ namespace Identity.Infrastructure.Jwt
 
         public async Task<string> GenerateToken(string UserName)
         {
+            AppUser? user=await _userManager.FindByNameAsync(UserName);
+            var roles =await  _userManager.GetRolesAsync(user);
+
             try
             {
                 
