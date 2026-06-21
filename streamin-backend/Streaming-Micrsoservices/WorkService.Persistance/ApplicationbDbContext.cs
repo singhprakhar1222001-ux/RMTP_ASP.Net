@@ -22,6 +22,6 @@ namespace WorkService.Persistance
             //using reflections to find impplementations of IEntityTypeConfiguration, this is also the basis of mark interfaces
             
         }
-        public DbSet<OutboxMessage> outbox;
+        public DbSet<OutboxMessage> OutboxMessages { get; set; }
     }
 }

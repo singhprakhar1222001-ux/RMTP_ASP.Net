@@ -1,4 +1,4 @@
-﻿using Contracts.Identity.Implementations;
+﻿using Contracts.Identity.IntegrationEvents.Implementations;
 using Identity.API.Helpers;
 using Identity.Application.Abstractions;
 using Identity.Infrastructure.Persistance;

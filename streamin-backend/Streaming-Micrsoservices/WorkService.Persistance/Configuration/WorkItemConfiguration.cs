@@ -21,6 +21,10 @@ namespace WorkService.Persistance.Configuration
                 .HasForeignKey(x=>x.WorkItemID)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            builder.Property(x => x.WorkStatus)
+                .HasConversion<string>();
+
+
             
                 
             

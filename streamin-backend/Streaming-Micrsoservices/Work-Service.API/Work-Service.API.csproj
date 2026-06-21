@@ -18,9 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Contracts\Contracts.csproj" />
     <ProjectReference Include="..\Streaming-Micrsoservices.ServiceDefaults\Streaming-Micrsoservices.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\Work-Service.Application\Work-Service.Application.csproj" />
+    <ProjectReference Include="..\Work-Service.Domain\Work-Service.Domain.csproj" />
     <ProjectReference Include="..\WorkService.Infrastructure\WorkService.Infrastructure.csproj" />
-    <ProjectReference Include="..\WorkService.Infrastructure\WorkService.Persistance.csproj" />
     <ProjectReference Include="..\WorkService.Persistance\WorkService.Persistance.csproj" />
   </ItemGroup>
 
