@@ -3,6 +3,7 @@ using System.Runtime.CompilerServices;
 using Work_Service.Application.Abstractions;
 using Work_Service.Application.Projections;
 using Work_Service.Domain.Projections;
+using Work_Service.Domain.WorkContext;
 using WorkService.Infrastructure.BackgroundJobs;
 using WorkService.Infrastructure.Messages.Connection;
 using WorkService.Infrastructure.Messages.Topology;
@@ -16,6 +17,7 @@ namespace Work_Service.API
         public static IServiceCollection addDependency(this IServiceCollection service) {
             service.AddSingleton<IConnectionManager, ConnectionManager>();
             service.AddScoped<IUnitofWork<User>, UnitOfWork>();
+            service.AddScoped<IUnitofWork<Workitem>, WorkUnitOfWork>();
             service.AddMediatR(typeof(UserCreateRequestCommand).Assembly);
             service.AddHostedService<ConsumerWorker>();
             service.AddSingleton<EventInterceptor>();

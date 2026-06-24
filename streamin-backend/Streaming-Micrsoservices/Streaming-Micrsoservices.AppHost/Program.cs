@@ -33,4 +33,7 @@ builder.AddProject<Projects.Work_Service_API>("work-service-api")
     .WithReference(rabbitmq);
 
 
+builder.AddProject<Projects.SearchService_API>("searchservice-api");
+
+
 builder.Build().Run();

@@ -12,7 +12,7 @@ namespace Contracts.WorkService.Events
         Guid Id,
         string name,
         string description,
-        string comment,
+        List<CommentEventProperty> comment,
         Guid ProjectId,
         Guid assignedId,
         Guid managerId,
@@ -30,7 +30,7 @@ namespace Contracts.WorkService.Events
         public Guid ProjectId { get; private set; } = ProjectId;
         public string description { get; private set; } = description;
 
-        public string comment { get; private set; }= comment;
+        public List<CommentEventProperty> comment { get; private set; } = comment;
 
         public Guid assignedId { get; private set; }= assignedId;
 

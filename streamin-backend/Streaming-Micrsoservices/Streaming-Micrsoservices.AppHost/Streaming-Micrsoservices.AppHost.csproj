@@ -23,6 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Identity.API\Identity.API.csproj" />
+    <ProjectReference Include="..\SearchService.API\SearchService.API.csproj" />
     <ProjectReference Include="..\Work-Service.API\Work-Service.API.csproj" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,5 @@
-﻿using Contracts.WorkService.Events;
+﻿using Contracts.WorkService.Consts;
+using Contracts.WorkService.Events;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -37,13 +38,13 @@ namespace Work_Service.Application.WorkContext
                 Deadline: request.Deadline,
                 managerId:request.ManagerId
                 );
-            //add event in outbox
+            var commentEventProperty = workitem._Comment.Select(x => new CommentEventProperty(UserId: x.UserId, comment: x.Comment, Timestamp: x.Timestamp)).ToList();
             var CreationEvent = new WorkCreatedEvent(
                 eventID: Guid.NewGuid(),
                 Id: workitem.Id,
                 name:workitem.Name,
                 description: workitem.description,
-                comment: workitem.comment,
+                comment:commentEventProperty,
                 ProjectId: workitem.ProjectId,
                 assignedId: workitem.assignedId,
                 deadline: workitem.Deadline,

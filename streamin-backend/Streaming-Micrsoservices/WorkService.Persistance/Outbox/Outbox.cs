@@ -16,9 +16,6 @@ namespace WorkService.Persistance.Outbox
 
         [Required]
         public string Message { get; set; }
-
-        [Required]
-        public string TypeOfEvent { get; set; }
         public bool IsError { get; set; }
 
         public DateTime OccuredOn { get; set; }

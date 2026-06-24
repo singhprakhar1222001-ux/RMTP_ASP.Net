@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
@@ -9,12 +10,11 @@ using Work_Service.Domain.WorkContext;
 
 namespace WorkService.Persistance.Configuration
 {
-    internal class WorkHistoryConfiguration:IEntityTypeConfiguration<WorkHistory>
+    internal class CommentsConfiguration : IEntityTypeConfiguration<Comments>
     {
-        public void Configure(EntityTypeBuilder<WorkHistory> builder)
+        public void Configure(EntityTypeBuilder<Comments> builder)
         {
-            builder.HasKey(x => x.id);
-            builder.HasIndex(x => x.Assignecomment);
+            builder.HasKey(x => x.Id);
         }
     }
 }

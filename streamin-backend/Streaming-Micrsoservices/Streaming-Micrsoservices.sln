@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work-Service.Application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{881DFD97-591A-4CA7-BA4C-39E716D2108A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService.API", "SearchService.API\SearchService.API.csproj", "{138CB690-C154-EE0D-E13B-8A10FFF5AAAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{881DFD97-591A-4CA7-BA4C-39E716D2108A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{881DFD97-591A-4CA7-BA4C-39E716D2108A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{881DFD97-591A-4CA7-BA4C-39E716D2108A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138CB690-C154-EE0D-E13B-8A10FFF5AAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138CB690-C154-EE0D-E13B-8A10FFF5AAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138CB690-C154-EE0D-E13B-8A10FFF5AAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138CB690-C154-EE0D-E13B-8A10FFF5AAAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

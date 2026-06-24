@@ -15,18 +15,12 @@ namespace WorkService.Persistance.Configuration
         {
             builder.HasKey(x => x.Id);
 
-
-            builder.HasMany<WorkHistory>()
-                .WithOne()
-                .HasForeignKey(x=>x.WorkItemID)
-                .OnDelete(DeleteBehavior.Cascade);
-
             builder.Property(x => x.WorkStatus)
                 .HasConversion<string>();
 
-
-            
-                
+            builder.HasMany<Comments>()
+                .WithOne()
+                .HasForeignKey(c => c.WorkId);
             
         }
     }
