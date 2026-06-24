@@ -18,7 +18,7 @@ var rabbitmq = builder.AddRabbitMQ("rabbitmq")
 
 var workservicedb = postgres.AddDatabase("workservicedb");
 var identitydb = postgres.AddDatabase("identitydb");
-
+var searchdb = postgres.AddDatabase("searchdb");
 builder.AddProject<Projects.Identity_API>("identity-api")
     .WaitForStart(identitydb)
     .WithReference(identitydb)
@@ -33,7 +33,9 @@ builder.AddProject<Projects.Work_Service_API>("work-service-api")
     .WithReference(rabbitmq);
 
 
-builder.AddProject<Projects.SearchService_API>("searchservice-api");
+builder.AddProject<Projects.SearchService_API>("searchservice-api")
+    .WaitForStart(searchdb)
+    .WithReference(searchdb);
 
 
 builder.Build().Run();

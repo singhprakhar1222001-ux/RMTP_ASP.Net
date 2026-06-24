@@ -14,28 +14,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Packages.props = Directory.Packages.props
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Infrastructure", "Identity.Infrastructure\Identity.Infrastructure.csproj", "{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.Infrastructure", "Identity.Infrastructure\Identity.Infrastructure.csproj", "{35CB26F5-8292-4C47-B613-F6DCFB8A80B4}"
 	ProjectSection(ProjectDependencies) = postProject
 		{8497B8A1-216C-47DB-BC97-78745ACA8DE5} = {8497B8A1-216C-47DB-BC97-78745ACA8DE5}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Application", "Identity.Application\Identity.Application.csproj", "{8497B8A1-216C-47DB-BC97-78745ACA8DE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.Application", "Identity.Application\Identity.Application.csproj", "{8497B8A1-216C-47DB-BC97-78745ACA8DE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work-Service.API", "Work-Service.API\Work-Service.API.csproj", "{8B4A2EC0-8EA4-6D7C-1B36-98E2272E7334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Work-Service.API", "Work-Service.API\Work-Service.API.csproj", "{8B4A2EC0-8EA4-6D7C-1B36-98E2272E7334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work-Service.Domain", "Work-Service.Domain\Work-Service.Domain.csproj", "{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Work-Service.Domain", "Work-Service.Domain\Work-Service.Domain.csproj", "{ED26A8C5-C07E-447D-819F-5FB0CABD91EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkService.Persistance", "WorkService.Persistance\WorkService.Persistance.csproj", "{C8D53535-2934-47A7-A20B-288F011D4D8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkService.Persistance", "WorkService.Persistance\WorkService.Persistance.csproj", "{C8D53535-2934-47A7-A20B-288F011D4D8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.SharedKernel", "Identity.SharedKernel\Identity.SharedKernel.csproj", "{115C1A10-1EE1-4C33-A0BB-1F53DD1EB0E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.SharedKernel", "Identity.SharedKernel\Identity.SharedKernel.csproj", "{115C1A10-1EE1-4C33-A0BB-1F53DD1EB0E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkService.Infrastructure", "WorkService.Infrastructure\WorkService.Infrastructure.csproj", "{855514B5-085E-4CEB-A2A1-BB3682C5FD30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkService.Infrastructure", "WorkService.Infrastructure\WorkService.Infrastructure.csproj", "{855514B5-085E-4CEB-A2A1-BB3682C5FD30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "SharedKernel\SharedKernel.csproj", "{BAE887E6-EBE8-461F-A11A-21FBF24F5989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedKernel", "SharedKernel\SharedKernel.csproj", "{BAE887E6-EBE8-461F-A11A-21FBF24F5989}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work-Service.Application", "Work-Service.Application\Work-Service.Application.csproj", "{6D661C0A-A3B5-48FE-A964-8B61819B374A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Work-Service.Application", "Work-Service.Application\Work-Service.Application.csproj", "{6D661C0A-A3B5-48FE-A964-8B61819B374A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{881DFD97-591A-4CA7-BA4C-39E716D2108A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{881DFD97-591A-4CA7-BA4C-39E716D2108A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchService.API", "SearchService.API\SearchService.API.csproj", "{8EFFC4B5-EDDD-4E43-B1D3-098EF65D68C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService.API", "SearchService.API\SearchService.API.csproj", "{138CB690-C154-EE0D-E13B-8A10FFF5AAAD}"
 EndProject
@@ -97,10 +99,10 @@ Global
 		{881DFD97-591A-4CA7-BA4C-39E716D2108A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{881DFD97-591A-4CA7-BA4C-39E716D2108A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{881DFD97-591A-4CA7-BA4C-39E716D2108A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{138CB690-C154-EE0D-E13B-8A10FFF5AAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{138CB690-C154-EE0D-E13B-8A10FFF5AAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{138CB690-C154-EE0D-E13B-8A10FFF5AAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{138CB690-C154-EE0D-E13B-8A10FFF5AAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFFC4B5-EDDD-4E43-B1D3-098EF65D68C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFFC4B5-EDDD-4E43-B1D3-098EF65D68C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFFC4B5-EDDD-4E43-B1D3-098EF65D68C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFFC4B5-EDDD-4E43-B1D3-098EF65D68C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
