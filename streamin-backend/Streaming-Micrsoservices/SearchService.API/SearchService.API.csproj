@@ -7,6 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Infrastructure\Messaging\BackgroundJob\**" />
+    <Content Remove="Infrastructure\Messaging\BackgroundJob\**" />
+    <EmbeddedResource Remove="Infrastructure\Messaging\BackgroundJob\**" />
+    <None Remove="Infrastructure\Messaging\BackgroundJob\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    
+	  <PackageReference Include="Elastic.Clients.Elasticsearch" />
     
 	  <PackageReference Include="Newtonsoft.Json" />
 	  <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
@@ -15,13 +24,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Contracts\Contracts.csproj" />
     <ProjectReference Include="..\Streaming-Micrsoservices.ServiceDefaults\Streaming-Micrsoservices.ServiceDefaults.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\" />
-    <Folder Include="Infrastructure\Messaging\BackgroundJob\" />
-    <Folder Include="Infrastructure\Messaging\Topology\" />
+    <Folder Include="Features\GenerateIndex\" />
+    <Folder Include="Infrastructure\Messaging\BackgroundJobs\" />
+    <Folder Include="Infrastructure\IndexingService\" />
   </ItemGroup>
 
 </Project>
