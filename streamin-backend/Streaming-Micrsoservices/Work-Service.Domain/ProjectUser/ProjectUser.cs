@@ -3,16 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Work_Service.Domain.Abstraction;
 using Work_Service.Domain.ProjectContext;
 
 namespace Work_Service.Domain.ProjectUser
 {
-    public enum UserRole
-    {
-        Member,
-        Manager
-    }
-    public class ProjectUser
+    
+    public class ProjectUser:Entity
     {
         private ProjectUser() { }
         public ProjectUser(Guid id, string name, Role role)

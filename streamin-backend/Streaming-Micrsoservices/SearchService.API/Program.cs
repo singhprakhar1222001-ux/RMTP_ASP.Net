@@ -1,12 +1,14 @@
 
 using Microsoft.EntityFrameworkCore;
+using SearchService.API.Infrastructure.IndexingService;
+using SearchService.API.Infrastructure.Messaging.Topology;
 using SearchService.API.Infrastructure.Projections;
 
 namespace SearchService.API;
 
 public class Program
 {
-    public static void Main(string[] args)
+    public static async Task Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
         builder.AddServiceDefaults();
@@ -20,7 +22,10 @@ public class Program
         builder.Services.AddDbContext<AppDbContext>((options) => {
             options.UseNpgsql(builder.Configuration.GetConnectionString("searchdb"));
         });
+        builder.Services.AddServices();
         var app = builder.Build();
+
+        
 
         app.MapDefaultEndpoints();
 
@@ -29,9 +34,15 @@ public class Program
         {
             app.UseSwagger();
             app.UseSwaggerUI();
-
-            using var dbcontext = app.Services.GetRequiredService<AppDbContext>();
+            using var scope = app.Services.CreateScope();
+            using var dbcontext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
             dbcontext.Database.Migrate();
+
+            var ElasticClient = scope.ServiceProvider.GetRequiredService<ElasticClient>();
+            await ElasticClient.GetIndex();
+
+            var rabbitmqInitializer = scope.ServiceProvider.GetRequiredService<ITopologyInitializer>();
+            await rabbitmqInitializer.Initialize();
             
 
         }

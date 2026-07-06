@@ -4,10 +4,11 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Work_Service.Domain.Abstraction;
 
 namespace Work_Service.Domain.ProjectContext
 {
-    public class ProjectBase
+    public class ProjectBase:Entity
     {
         public ProjectBase() { }
         private ProjectBase(Guid guid, string Name, string Description, Guid ProjectHead)
@@ -16,8 +17,6 @@ namespace Work_Service.Domain.ProjectContext
             this.Name = Name;
             this.Description = Description;
             this.ProjectHead = ProjectHead;
-            
-
         }
         public Guid Id { get;}
         public string Name { get; private set; }
@@ -28,7 +27,7 @@ namespace Work_Service.Domain.ProjectContext
 
         
 
-        public static ProjectBase? CreateProject(List <Guid> members, string Name, string Description, Guid Projecthead)
+        public static ProjectBase? CreateProject(string Name, string Description, Guid Projecthead)
         {
             if(Name.Length<7 || Name[0] >90 || Name[0]<65)
             {

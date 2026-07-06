@@ -20,13 +20,13 @@ namespace Work_Service.Application.Projections
                 _unitOfWork = unitOfWork;
             }
 
-            public async Task<Unit> Handle(UserCreateRequestCommand request, CancellationToken cancellationToken)
+            public async Task Handle(UserCreateRequestCommand request, CancellationToken cancellationToken)
             {
             
                 User user = User.CreateUser(request.userId, Role.Employee, request.email);
                 _unitOfWork.Add(user);
                 await _unitOfWork.SaveChangesAsync();
-                return Unit.Value;
+                
             
             }
         }

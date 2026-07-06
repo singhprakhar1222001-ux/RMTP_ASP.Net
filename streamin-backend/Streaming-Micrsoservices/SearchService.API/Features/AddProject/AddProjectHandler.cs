@@ -6,7 +6,12 @@ using SearchService.API.Infrastructure.Projections.Models;
 
 namespace SearchService.API.Features.AddProject
 {
-    public class CreateProjectRequest:ProjectCreatedEvent, IRequest<Unit> { }
+    public record CreateProjectRequest : ProjectCreatedEvent, IRequest
+    {
+        public CreateProjectRequest(Guid Id, Guid EventId, string ProjectName, DateTime OccuredOn) : base(Id, EventId, ProjectName, OccuredOn)
+        {
+        }
+    }
     public class AddProjectHandler:IRequestHandler<CreateProjectRequest>
     {
         private readonly AppDbContext _context;
@@ -14,9 +19,9 @@ namespace SearchService.API.Features.AddProject
         public AddProjectHandler(ProjectCache cache,AppDbContext context)
         {
            this.cache=cache;
-            this._context=context;
+           this._context=context;
         }
-        public async Task<Unit> Handle(CreateProjectRequest request, CancellationToken cancellationToken)
+        public async Task Handle(CreateProjectRequest request, CancellationToken cancellationToken)
         {
             //just add to your cache and database in a single transaction
             ProjectProjection projection = new ProjectProjection();
@@ -27,7 +32,6 @@ namespace SearchService.API.Features.AddProject
 
             _context.ProjectProjections.Add(projection);
             await _context.SaveChangesAsync();
-            return Unit.Value;
         }
     }
 }

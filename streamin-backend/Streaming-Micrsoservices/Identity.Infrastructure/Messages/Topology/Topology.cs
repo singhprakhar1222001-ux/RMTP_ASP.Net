@@ -9,7 +9,7 @@ namespace Identity.Infrastructure.Messages.Topology
 {
     public static class Topology
     {
-        public const string ExchangeName = "user.created";
+        public const string ExchangeName = "user.exchange";
         public const string routingKey = "user.created";
     }
 }

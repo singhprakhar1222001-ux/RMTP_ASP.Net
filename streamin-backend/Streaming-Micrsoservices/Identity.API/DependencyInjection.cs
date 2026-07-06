@@ -1,4 +1,4 @@
-﻿using Google.Protobuf.WellKnownTypes;
+﻿
 using Identity.API.Helpers;
 using Identity.Application.Abstractions;
 using Identity.Application.Service.Jwt;

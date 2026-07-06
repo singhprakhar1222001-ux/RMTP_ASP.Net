@@ -1,9 +1,13 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Contracts;
+using Contracts.WorkService.RoutingEventDirectory;
+using Contracts.WorkService.Topology;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RabbitMQ.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using WorkService.Infrastructure.Messages.Connection;
@@ -34,17 +38,21 @@ namespace WorkService.Infrastructure.BackgroundJobs
                     List<OutboxMessage> outboxMessages = dbcontext.OutboxMessages.Where(x => x.IsProcessed == false).Take(20).ToList();
                     var connection = await connectionManager.GetConnection();
                     var channel = await connection.CreateChannelAsync();
+                    //get appropriate routing key
+                    Assembly assembly = typeof(IIntegreationEvent).Assembly;
                     foreach (var outboxMessage in outboxMessages)
                     {
+                        var MessageTypeString = outboxMessage.Type;
+                        var type_message = assembly.GetType(MessageTypeString);
+                        string routing_key = RoutingEventDirectory.GetRoutingKey(type_message);
                         var message = outboxMessage.Message;
                         byte[] messageByte = UTF8Encoding.UTF8.GetBytes(message);
                         await channel.BasicPublishAsync(
-                            exchange: Topology.ExchangeName,
-                            routingKey: Topology.routingKey,
+                            exchange: WorkExchangeTopology.WorkExchangeName,
+                            routingKey: routing_key,
                             body: messageByte,
                             mandatory: true,
                             cancellationToken:stoppingToken
-                            
                             );
                         outboxMessage.IsProcessed = true;
                         await dbcontext.SaveChangesAsync();

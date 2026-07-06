@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
@@ -17,6 +17,8 @@
     
 	  <PackageReference Include="Elastic.Clients.Elasticsearch" />
     
+	  <PackageReference Include="MediatR" />
+    
 	  <PackageReference Include="Newtonsoft.Json" />
 	  <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
 	  <PackageReference Include="RabbitMQ.Client" />
@@ -26,12 +28,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Contracts\Contracts.csproj" />
     <ProjectReference Include="..\Streaming-Micrsoservices.ServiceDefaults\Streaming-Micrsoservices.ServiceDefaults.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Features\GenerateIndex\" />
-    <Folder Include="Infrastructure\Messaging\BackgroundJobs\" />
-    <Folder Include="Infrastructure\IndexingService\" />
   </ItemGroup>
 
 </Project>

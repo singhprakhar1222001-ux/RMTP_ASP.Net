@@ -5,14 +5,17 @@ var builder = DistributedApplication.CreateBuilder(args);
 var password=builder.AddParameter("pg-password",secret:true);
 
 var postgres = builder.AddPostgres("postgres")
-    .WithDataVolume()
     .WithPassword(password)
-    .WithLifetime(ContainerLifetime.Persistent);
+    .WithLifetime(ContainerLifetime.Session);
 
 var rabbitmq = builder.AddRabbitMQ("rabbitmq")
-    .WithDataVolume()
     .WithLifetime(ContainerLifetime.Session)
     .WithManagementPlugin();
+
+var elasticSearch = builder.AddElasticsearch("elasticSearch")
+    .WithEnvironment("xpack.security.enabled", "false")
+    .WithEnvironment("ES_JAVA_OPTS", "-Xms512m -Xmx512m")
+    .WithLifetime(ContainerLifetime.Session);
 
 //var identity_db = postgres.AddDatabase("identity_db");
 
@@ -26,7 +29,7 @@ builder.AddProject<Projects.Identity_API>("identity-api")
     .WaitForStart(rabbitmq)
     .WithEnvironment("ConnectionStrings__identitydb", identitydb);
 
-builder.AddProject<Projects.Work_Service_API>("work-service-api")
+var workservice=builder.AddProject<Projects.Work_Service_API>("work-service-api")
     .WaitForStart(workservicedb)
     .WithReference(workservicedb)
     .WaitFor(rabbitmq)
@@ -35,7 +38,12 @@ builder.AddProject<Projects.Work_Service_API>("work-service-api")
 
 builder.AddProject<Projects.SearchService_API>("searchservice-api")
     .WaitForStart(searchdb)
-    .WithReference(searchdb);
+    .WithReference(searchdb)
+    .WaitForStart(elasticSearch)
+    .WithReference(elasticSearch)
+    .WaitForStart(rabbitmq)
+    .WithReference(rabbitmq)
+    .WaitForCompletion(workservice);
 
 
 builder.Build().Run();

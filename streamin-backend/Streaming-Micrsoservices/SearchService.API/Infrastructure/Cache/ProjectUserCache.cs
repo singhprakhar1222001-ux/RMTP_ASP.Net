@@ -7,20 +7,20 @@ namespace SearchService.API.Infrastructure.Cache
     {
         private readonly ConcurrentDictionary<Guid, ProjectUserProjection> _cache = new();
 
-        public bool GetValue(Guid projectId, out ProjectUserProjection? projection)
+        public bool GetValue(Guid projectUserId, out ProjectUserProjection? projection)
         {
 
-            bool res = _cache.TryGetValue(projectId, out projection);
+            bool res = _cache.TryGetValue(projectUserId, out projection);
             return res;
         }
 
-        public void Insert(Guid projectId, ProjectUserProjection projection)
+        public void Insert(Guid projectUserId, ProjectUserProjection projection)
         {
-            _cache.TryAdd(projectId, projection);
+            _cache.TryAdd(projectUserId, projection);
         }
-        public bool Remove(Guid projectId)
+        public bool Remove(Guid projectUserId)
         {
-            return _cache.TryRemove(projectId, out _);
+            return _cache.TryRemove(projectUserId, out _);
         }
     }
 }

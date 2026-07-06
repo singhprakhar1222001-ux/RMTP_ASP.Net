@@ -6,8 +6,14 @@ namespace SearchService.API.Infrastructure.IndexingService
 {
     public class ElasticClient
     {
+        private readonly IConfiguration _configuration;
         private readonly SemaphoreSlim sem_lock = new SemaphoreSlim(1, 1);
-        ElasticsearchClient client = new ElasticsearchClient(new Uri("ElasticConnectionString"));
+        private ElasticsearchClient client;
+        public ElasticClient(IConfiguration configuration)
+        {
+            _configuration = configuration;
+            client = new ElasticsearchClient(new Uri(_configuration.GetConnectionString("elasticSearch")));
+        }
 
         public async Task GetIndex()
         {

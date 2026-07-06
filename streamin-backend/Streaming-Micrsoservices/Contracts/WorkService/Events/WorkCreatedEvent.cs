@@ -41,5 +41,6 @@ namespace Contracts.WorkService.Events
         public DateOnly Deadline { get; private set; } = deadline;
         public bool IsOverDue { get; private set; } = false;
         public WorkStatus WorkStatus { get; private set; } = WorkStatus.InProgress;
+        public int Version { get; private set;  }
     }
 }

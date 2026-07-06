@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Contracts.WorkService.Topology;
+using RabbitMQ.Client;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -40,6 +42,13 @@ namespace WorkService.Infrastructure.Messages.Topology
                  queue:Topology.QueueName,
                  exchange:Topology.ExchangeName,
                  routingKey:Topology.routingKey
+                );
+
+            //initialize the exchange which will have the producer algorithm too
+            await channel.ExchangeDeclareAsync(
+                exchange: WorkExchangeTopology.WorkExchangeName,
+                type: ExchangeType.Topic
+
                 );
         }
     }

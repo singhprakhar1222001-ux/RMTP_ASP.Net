@@ -1,4 +1,4 @@
-﻿using Microsoft.OpenApi.Writers;
+﻿
 using RabbitMQ.Client;
 using SearchService.API.IndexClass;
 using System.Threading.Channels;
