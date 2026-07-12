@@ -43,7 +43,7 @@ namespace Identity.API.Controllers
                 return BadRequest(result.Errors);
             }
 
-            await _userManager.AddToRoleAsync(user, Roles.Member);
+            //await _userManager.AddToRoleAsync(user, Roles.Member);
             _eventContext.AddEvent(
                 new UserCreatedIntegrationEvent(Guid.NewGuid(),UserName:userCreateDto.UserName,Membership:Roles.Member));
             await _dbContext.SaveChangesAsync();

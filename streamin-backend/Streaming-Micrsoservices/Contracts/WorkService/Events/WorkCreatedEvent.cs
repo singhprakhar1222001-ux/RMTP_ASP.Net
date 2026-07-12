@@ -1,4 +1,5 @@
 ﻿using Contracts.WorkService.Consts;
+using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace Contracts.WorkService.Events
         Guid managerId,
         DateOnly assignmentDate,
         DateOnly deadline
-        ) : IIntegreationEvent
+        ) : IIntegreationEvent,INotification
     {
         public Guid EventId { get; set; } = eventID;
 

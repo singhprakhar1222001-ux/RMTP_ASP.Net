@@ -8,7 +8,7 @@ namespace Work_Service.API.Controllers
 {
     [ApiController]
     [Route("[Controller]")]
-    [Authorize]
+    
     public class WorkController : Controller
     {
         private readonly IMediator _mediator;

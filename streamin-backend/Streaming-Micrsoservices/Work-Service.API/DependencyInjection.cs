@@ -25,6 +25,7 @@ namespace Work_Service.API
             service.AddMediatR((x) => x.RegisterServicesFromAssembly(typeof(UserCreateRequestCommand).Assembly));
             service.AddHostedService<ConsumerWorker>();
             service.AddSingleton<EventInterceptor>();
+            service.AddHostedService<ProducerWorker>();
             service.AddSingleton<ITopologyInitializer, TopologyInitializer>();
             return service;
         }

@@ -43,7 +43,7 @@ builder.AddProject<Projects.SearchService_API>("searchservice-api")
     .WithReference(elasticSearch)
     .WaitForStart(rabbitmq)
     .WithReference(rabbitmq)
-    .WaitForCompletion(workservice);
+    .WaitFor(workservice);
 
 
 builder.Build().Run();

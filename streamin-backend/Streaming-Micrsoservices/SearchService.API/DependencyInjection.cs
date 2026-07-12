@@ -2,6 +2,7 @@
 using SearchService.API.Infrastructure.Buffer;
 using SearchService.API.Infrastructure.Cache;
 using SearchService.API.Infrastructure.IndexingService;
+using SearchService.API.Infrastructure.Messaging.BackgroundJobs;
 using SearchService.API.Infrastructure.Messaging.Connection;
 using SearchService.API.Infrastructure.Messaging.Topology;
 
@@ -19,6 +20,7 @@ namespace SearchService.API
             services.AddMediatR((x) => x.RegisterServicesFromAssembly(typeof(WorkIndexCommandHandler).Assembly));
             services.AddSingleton<ITopologyInitializer, TopologyInitializer>();
             services.AddSingleton<IConnectionManager, ConnectionManager>();
+            services.AddHostedService<ConsumerJob>();
         }
     }
 }

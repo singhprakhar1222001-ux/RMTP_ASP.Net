@@ -11,7 +11,9 @@ namespace Contracts.WorkService.RoutingEventDirectory
     {
         private static readonly Dictionary<Type, string> RoutingKeys = new()
         {
-            [typeof(WorkCreatedEvent)] = "workservice.work.created"
+            [typeof(WorkCreatedEvent)] = "workservice.work.created",
+            [typeof(ProjectCreatedEvent)]="workservice.project.created",
+            [typeof(ProjectUserCreatedEvent)]="workservice.user.created"
         };
         private static readonly Dictionary<string,Type> TypeInference=RoutingKeys.ToDictionary(x=>x.Value,x=>x.Key);
 

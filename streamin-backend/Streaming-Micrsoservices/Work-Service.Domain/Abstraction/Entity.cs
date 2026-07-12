@@ -10,7 +10,7 @@ namespace Work_Service.Domain.Abstraction
 {
     public class Entity
     {
-        private  IList<IIntegreationEvent> _events {  get; set; }
+        private IList<IIntegreationEvent> _events { get; set; } = new List<IIntegreationEvent>();
 
         public void AddEvent(IIntegreationEvent _event){
             _events.Add(_event);
@@ -21,7 +21,7 @@ namespace Work_Service.Domain.Abstraction
         }
         public IEnumerable<IIntegreationEvent> getEvents()
         {
-            return _events;
+            return _events.ToList();
         }
             
     }

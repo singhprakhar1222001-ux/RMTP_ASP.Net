@@ -30,14 +30,14 @@ namespace SearchService.API.Infrastructure.Messaging.BackgroundJobs
             {
                 try
                 {
-                    var scope = scopeFactory.CreateScope();
+                    using var scope = scopeFactory.CreateScope();//dont leak to other messages
                     var mediator = scope.ServiceProvider.GetRequiredService<IMediator>();
                     string routing_key = EventArgs.RoutingKey;
                     Type type = RoutingEventDirectory.GetTypeInference(routing_key);
                     byte[] body = EventArgs.Body.ToArray();
                     string body_string = Encoding.UTF8.GetString(body);
                     var responseBody = JsonConvert.DeserializeObject(body_string, type);
-                    await mediator.Send(responseBody);
+                    await mediator.Publish(responseBody);
                     await ((AsyncEventingBasicConsumer)sender).Channel.BasicAckAsync(EventArgs.DeliveryTag, multiple: false);
                 }
                 catch (Exception ex)

@@ -1,4 +1,5 @@
 ﻿using Contracts.WorkService.Topology;
+using RabbitMQ.Client;
 using SearchService.API.Infrastructure.Messaging.Connection;
 
 namespace SearchService.API.Infrastructure.Messaging.Topology
@@ -16,6 +17,11 @@ namespace SearchService.API.Infrastructure.Messaging.Topology
             var connection = await _connectionManager.GetConnection();
             var channel = await connection.CreateChannelAsync();
 
+            await channel.ExchangeDeclareAsync(
+                exchange: Topology.retryExchange,
+                type: ExchangeType.Topic
+                );
+
             await channel.QueueDeclareAsync(
                 queue: Topology.EventQueue,
                 durable: true,
@@ -32,8 +38,8 @@ namespace SearchService.API.Infrastructure.Messaging.Topology
             var retryArgs = new Dictionary<string, object>
             {
                 ["x-message-ttl"] = 30000,
-                ["x-dead-letter-exchange"] = "",
-                ["x-dead-letter-routing-key"] = Topology.EventQueue
+                ["x-dead-letter-exchange"] = WorkExchangeTopology.WorkExchangeName,
+                
             };
             await channel.QueueDeclareAsync(
                 queue: Topology.RetryQueue,
@@ -41,6 +47,12 @@ namespace SearchService.API.Infrastructure.Messaging.Topology
                 exclusive: true,
                 autoDelete: false,
                 arguments: retryArgs
+                );
+
+            await channel.QueueBindAsync(
+                queue: Topology.RetryQueue,
+                exchange: Topology.retryExchange,
+                routingKey: Topology.routingKey//this is a binding key, used to preserve the original key
                 );
         }
     }

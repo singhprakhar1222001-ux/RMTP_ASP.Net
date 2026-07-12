@@ -6,13 +6,8 @@ using SearchService.API.Infrastructure.Projections.Models;
 
 namespace SearchService.API.Features.AddProjectUser
 {
-    public record CreateProjectRequest : ProjectUserCreatedEvent, IRequest
-    {
-        public CreateProjectRequest(Guid Id, Guid EventId, string Name, DateTime OccuredOn) : base(Id, EventId, Name, OccuredOn)
-        {
-        }
-    }
-    public class AddProjectUserHandler : IRequestHandler<CreateProjectRequest>
+    
+    public class AddProjectUserHandler : INotificationHandler<ProjectUserCreatedEvent>
     {
         private readonly AppDbContext _context;
         private ProjectUserCache cache;
@@ -21,7 +16,7 @@ namespace SearchService.API.Features.AddProjectUser
             this.cache = cache;
             this._context = context;
         }
-        public async Task Handle(CreateProjectRequest request, CancellationToken cancellationToken)
+        public async Task Handle(ProjectUserCreatedEvent request, CancellationToken cancellationToken)
         {
             //just add to your cache and database in a single transaction
             var projection = new ProjectUserProjection();

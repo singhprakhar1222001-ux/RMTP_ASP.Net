@@ -21,7 +21,7 @@ namespace Work_Service.Domain.WorkContext
             WorkId = workId;
             Id = userId;
             this.Comment = comment;
-            Timestamp = DateTime.Now;
+            Timestamp = DateTime.UtcNow;
             Id=Guid.NewGuid();
         }
 

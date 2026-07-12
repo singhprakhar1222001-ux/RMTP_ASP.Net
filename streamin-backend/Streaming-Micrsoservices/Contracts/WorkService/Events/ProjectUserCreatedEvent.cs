@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MediatR;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace Contracts.WorkService.Events
         Guid EventId,
         string Name,
         DateTime OccuredOn
-        ):IIntegreationEvent
+        ):IIntegreationEvent,INotification
     {
         public Guid Id { get; private set; } = Id;
         public Guid EventId { get; private set; } = EventId;

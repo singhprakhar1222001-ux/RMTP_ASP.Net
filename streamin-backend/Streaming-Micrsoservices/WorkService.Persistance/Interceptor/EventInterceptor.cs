@@ -1,11 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Diagnostics;
-using Microsoft.EntityFrameworkCore.Infrastructure;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Work_Service.Domain.Abstraction;
 using WorkService.Persistance.Outbox;
 
@@ -17,6 +11,10 @@ namespace WorkService.Persistance.Interceptor
         {
 
             var context = eventData.Context;
+            var debugView = context.ChangeTracker.DebugView.LongView;
+            Console.WriteLine(debugView);
+            var event_entity = context.ChangeTracker.Entries<Entity>();
+            var all_entity = context.ChangeTracker.Entries();
             var events = context.ChangeTracker
                 .Entries<Entity>()
                 .Select(e => e.Entity)
