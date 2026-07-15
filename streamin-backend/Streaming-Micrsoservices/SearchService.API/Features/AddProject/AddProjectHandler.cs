@@ -31,7 +31,6 @@ namespace SearchService.API.Features.AddProject
             cache.Insert(request.Id, projection);
 
             _context.ProjectProjections.Add(projection);
-            await _context.SaveChangesAsync();
         }
 
         

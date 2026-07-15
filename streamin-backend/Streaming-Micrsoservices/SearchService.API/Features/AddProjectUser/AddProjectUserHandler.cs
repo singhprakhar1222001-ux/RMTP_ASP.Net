@@ -26,7 +26,6 @@ namespace SearchService.API.Features.AddProjectUser
             cache.Insert(request.Id, projection);
 
             _context.ProjectUserProjections.Add(projection);
-            await _context.SaveChangesAsync();
             
         }
     }

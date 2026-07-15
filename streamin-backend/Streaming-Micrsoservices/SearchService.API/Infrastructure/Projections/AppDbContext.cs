@@ -11,11 +11,13 @@ namespace SearchService.API.Infrastructure.Projections
         {
             modelBuilder.Entity<ProjectUserProjection>().HasKey(x => x.UserId);
             modelBuilder.Entity<ProjectProjection>().HasKey(x => x.ProjectId);
+            modelBuilder.Entity<EventLog>().HasIndex(x => x.EventId);
 
             base.OnModelCreating(modelBuilder);
         }
         public DbSet<ProjectProjection> ProjectProjections { get; set; }
         public DbSet<ProjectUserProjection> ProjectUserProjections { get; set; } 
+        public DbSet<EventLog> EventLogs { get; set; }
 
     }
 }

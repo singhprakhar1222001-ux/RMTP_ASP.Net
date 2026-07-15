@@ -99,7 +99,7 @@ namespace SearchService.API.Features.AddIndex
                     //just get the key in the way you were getting it
                     string routingkey = RoutingEventDirectory.GetRoutingKey(request.GetType());
                     await channel.BasicPublishAsync(
-                        exchange: Topology.retryExchange,
+                        exchange: Topology.retryExchange30s,
                         routingKey: routingkey,
                         body: body,
                         cancellationToken: cancellationToken

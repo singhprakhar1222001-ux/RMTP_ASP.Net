@@ -18,7 +18,15 @@ namespace SearchService.API.Infrastructure.Messaging.Topology
             var channel = await connection.CreateChannelAsync();
 
             await channel.ExchangeDeclareAsync(
-                exchange: Topology.retryExchange,
+                exchange: Topology.retryExchange30s,
+                type: ExchangeType.Topic
+                );
+            await channel.ExchangeDeclareAsync(
+                exchange: Topology.retryExchange60s,
+                type: ExchangeType.Topic
+                );
+            await channel.ExchangeDeclareAsync(
+                exchange: Topology.retryExchange90s,
                 type: ExchangeType.Topic
                 );
 
@@ -35,24 +43,64 @@ namespace SearchService.API.Infrastructure.Messaging.Topology
                 routingKey: Topology.routingKey
                 );
 
-            var retryArgs = new Dictionary<string, object>
+            var retryArgs30s = new Dictionary<string, object>
             {
                 ["x-message-ttl"] = 30000,
                 ["x-dead-letter-exchange"] = WorkExchangeTopology.WorkExchangeName,
                 
             };
             await channel.QueueDeclareAsync(
-                queue: Topology.RetryQueue,
+                queue: Topology.retryQueue30s,
                 durable: true,
                 exclusive: true,
                 autoDelete: false,
-                arguments: retryArgs
+                arguments: retryArgs30s
                 );
 
             await channel.QueueBindAsync(
-                queue: Topology.RetryQueue,
-                exchange: Topology.retryExchange,
+                queue: Topology.retryQueue30s,
+                exchange: Topology.retryExchange30s,
                 routingKey: Topology.routingKey//this is a binding key, used to preserve the original key
+                );
+
+            var retryArgs60s = new Dictionary<string, object>
+            {
+                ["x-message-ttl"] = 60000,
+                ["x-dead-letter-exchange"] = WorkExchangeTopology.WorkExchangeName,
+
+            };
+            await channel.QueueDeclareAsync(
+                queue: Topology.retryQueue60s,
+                durable: true,
+                exclusive: true,
+                autoDelete: false,
+                arguments: retryArgs60s
+                );
+
+            await channel.QueueBindAsync(
+                queue: Topology.retryQueue60s,
+                exchange: Topology.retryExchange60s,
+                routingKey: Topology.routingKey//this is a binding key, used to preserve the original key
+                );
+
+            var retryArgs90s = new Dictionary<string, object>
+            {
+                ["x-message-ttl"] = 90000,
+                ["x-dead-letter-exchange"] = WorkExchangeTopology.WorkExchangeName,
+
+            };
+            await channel.QueueDeclareAsync(
+                queue: Topology.retryQueue90s,
+                durable: true,
+                exclusive: true,
+                autoDelete: false,
+                arguments: retryArgs90s
+                );
+
+            await channel.QueueBindAsync(
+                queue: Topology.retryQueue90s,
+                exchange: Topology.retryExchange90s,
+                routingKey: Topology.routingKey //this is a binding key, used to preserve the original key
                 );
         }
     }
