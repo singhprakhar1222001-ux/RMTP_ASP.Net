@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Work_Service.Domain.Abstraction;
+using Work_Service.Domain.ProjectContext.DomainEventss;
 
 namespace Work_Service.Domain.ProjectContext
 {
@@ -34,10 +35,28 @@ namespace Work_Service.Domain.ProjectContext
                 throw new UserCreationException("User validation failed");
             }
             Guid guid = Guid.NewGuid();
-            return new ProjectBase(guid, Name, Description, Projecthead);
-            
+            ProjectBase project=new ProjectBase(guid, Name, Description, Projecthead);
+            project.AddEvent(
+                new ProjectCreatedDomainEvent(
+                    ProjectId: project.Id,
+                    Name: project.Name,
+                    Description: project.Description,
+                    ProjectHead: project.ProjectHead
+                    )
+                );
+            return project;
         }
-
+        public string ChangeName(string Name)
+        {
+            this.Name = Name;
+            return "Name changed Successfully";
+        }
+        public string ChangeDescription(string Description)
+        {
+            this.Description = Description;
+            return "Description Changed Successfully";
+        }
+        
         
     }
 

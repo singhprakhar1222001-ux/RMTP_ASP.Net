@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using MediatR;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,13 +9,18 @@ using WorkService.Persistance.Outbox;
 
 namespace WorkService.Persistance
 {
-    public class ApplicationbDbContext(DbContextOptions<ApplicationbDbContext> options) : DbContext(options)
+    public interface IMediatRProvider
+    {
+        
+    }
+    public class ApplicationbDbContext(DbContextOptions<ApplicationbDbContext> options,IMediator mediator) : DbContext(options),IMediatRProvider
     {
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
         //    optionsBuilder.UseNpgsql();
         //}
-
+        public readonly IMediator _mediator=mediator;
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationbDbContext).Assembly);

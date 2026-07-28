@@ -11,7 +11,7 @@ namespace SearchService.API.Infrastructure.Projections
         {
             modelBuilder.Entity<ProjectUserProjection>().HasKey(x => x.UserId);
             modelBuilder.Entity<ProjectProjection>().HasKey(x => x.ProjectId);
-            modelBuilder.Entity<EventLog>().HasIndex(x => x.EventId);
+            modelBuilder.Entity<EventLog>().HasKey(x => x.EventId);
 
             base.OnModelCreating(modelBuilder);
         }

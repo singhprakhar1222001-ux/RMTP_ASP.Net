@@ -13,7 +13,7 @@ namespace Contracts.WorkService.Events
         Guid Id,
         string name,
         string description,
-        List<CommentEventProperty> comment,
+        List<CommentEventProperty>? comment,
         Guid ProjectId,
         Guid assignedId,
         Guid managerId,

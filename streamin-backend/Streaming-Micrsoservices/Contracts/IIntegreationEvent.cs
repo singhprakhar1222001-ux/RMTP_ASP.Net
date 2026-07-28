@@ -8,8 +8,8 @@ namespace Contracts
 {
     public interface IIntegreationEvent
     {
-        Guid EventId {  get; }
-        DateTime OccuredOn { get; }
+        public Guid EventId {  get; }
+        public DateTime OccuredOn { get; }
 
     }
 }

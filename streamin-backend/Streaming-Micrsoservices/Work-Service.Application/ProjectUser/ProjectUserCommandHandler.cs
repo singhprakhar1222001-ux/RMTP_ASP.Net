@@ -31,13 +31,7 @@ namespace Work_Service.Application.ProjectUser
                 Name: request.Name,
                 role: Role.Employee
                 );
-            var ProjectUserCreatedEvent = new ProjectUserCreatedEvent(
-                Id: ProjectUser.Id,
-                EventId: Guid.NewGuid(),
-                Name: ProjectUser.Name,
-                OccuredOn: DateTime.UtcNow
-                );
-            ProjectUser.AddEvent(ProjectUserCreatedEvent );
+            
             _unitofWork.Add(ProjectUser);
             await _unitofWork.SaveChangesAsync();
             return;

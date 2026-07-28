@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Contracts.Identity.IntegrationEvents.Implementations
 {
-    public record UserCreatedIntegrationEvent (
+
+
+
+
+    public record 
+        UserCreatedIntegrationEvent (
         Guid userId,
         string UserName, 
         string Membership

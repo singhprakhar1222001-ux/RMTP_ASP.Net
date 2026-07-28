@@ -6,6 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Work_Service.Domain.Abstraction;
 using Contracts.WorkService.Consts;
+using Work_Service.Domain.WorkContext.WorkDomainEvents;
+using System.Runtime.InteropServices;
+
 
 namespace Work_Service.Domain.WorkContext
 {
@@ -58,7 +61,20 @@ namespace Work_Service.Domain.WorkContext
             {
                 throw new DomainException("Deadline has to be more than 3 days from now");
             }
-            return new Workitem(Name, description, comment, ProjectId,assignedId,managerId,Deadline);
+
+            var workItem=new Workitem(Name, description, comment, ProjectId,assignedId,managerId,Deadline);
+            //workItem.AddEvent(new WorkCreatedDomainEvent(
+            //    eventID:Guid.NewGuid(),
+            //    Id:workItem.Id,
+            //    name:workItem.Name,
+            //    description:workItem.description,
+            //    ProjectId:workItem.ProjectId,
+            //    assignedId:workItem.assignedId,
+            //    managerId:workItem.managerId,
+            //    assignmentDate:workItem.AssignmentDate,
+            //    deadline:workItem.Deadline
+            //    ));
+            return workItem;
         }
 
         public void SubmitForApproval(string comment)
@@ -119,7 +135,36 @@ namespace Work_Service.Domain.WorkContext
         {
             this.Version++;
             return;
+        } 
+        // test these as they throw domain events
+        public void ChangeAssignee(Guid NewUserId)
+        {
+            var oldUserId = this.assignedId;
+            this.assignedId = NewUserId;
+            this.AddEvent(new ChangeAssignmeeDomainEvent(
+                newAssignee: NewUserId, oldAssignee: oldUserId,WorkId:this.Id,ProjectId:this.ProjectId,Name:this.Name
+                ));
+            UpdateVersion();
         }
+        public void AddComment(string comment)
+        {
+            // this.Comments.Add()
+            this.Comments.Add(
+                 new Comments(comment, userId: this.managerId, workId: this.Id)
+                 );
+            this.AddEvent(new AddCommentDomainEvent(comment, this.managerId,WorkId:this.Id, ProjectId:this.ProjectId,Name:this.Name));
+            UpdateVersion();
+        }
+        public void ChangeDeadline(DateOnly newDate)
+        {
+            var OldDeadline = this.Deadline;
+            this.Deadline= newDate;
+            this.AddEvent(new WorkDeadlineChangeDomainEvent(
+                oldDate: OldDeadline, NewDate: newDate,workId: this.Id, ProjectId:this.ProjectId, Name:this.Name
+                ));
+            UpdateVersion();
+        }
+        //
         
     }
     public class DomainException : Exception

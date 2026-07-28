@@ -22,6 +22,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Audit-Service.API\Audit-Service.API.csproj" />
     <ProjectReference Include="..\Identity.API\Identity.API.csproj" />
     <ProjectReference Include="..\SearchService.API\SearchService.API.csproj" />
     <ProjectReference Include="..\Streaming-Micrsoservices.ServiceDefaults\Streaming-Micrsoservices.ServiceDefaults.csproj" />

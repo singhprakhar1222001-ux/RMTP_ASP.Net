@@ -10,16 +10,16 @@ namespace Work_Service.Domain.Abstraction
 {
     public class Entity
     {
-        private IList<IIntegreationEvent> _events { get; set; } = new List<IIntegreationEvent>();
+        private IList<DomainEvents> _events { get; set; } = new List<DomainEvents>();
 
-        public void AddEvent(IIntegreationEvent _event){
+        public void AddEvent(DomainEvents _event){
             _events.Add(_event);
         }
         public void ClearContext()
         {
             _events.Clear();
         }
-        public IEnumerable<IIntegreationEvent> getEvents()
+        public IEnumerable<DomainEvents> getEvents()
         {
             return _events.ToList();
         }

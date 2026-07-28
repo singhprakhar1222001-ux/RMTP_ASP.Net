@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.10.35013.160
+# Visual Studio Version 18
+VisualStudioVersion = 18.7.12002.237 oobstable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.API", "Identity.API\Identity.API.csproj", "{B3D63003-825A-495F-BBB5-20CA84A1E335}"
 EndProject
@@ -38,6 +38,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{881DFD97-591A-4CA7-BA4C-39E716D2108A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchService.API", "SearchService.API\SearchService.API.csproj", "{8EFFC4B5-EDDD-4E43-B1D3-098EF65D68C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audit-Service.API", "Audit-Service.API\Audit-Service.API.csproj", "{BAD3D0EB-DAC2-1A9E-FC12-69E3AB43D177}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,10 @@ Global
 		{8EFFC4B5-EDDD-4E43-B1D3-098EF65D68C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EFFC4B5-EDDD-4E43-B1D3-098EF65D68C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EFFC4B5-EDDD-4E43-B1D3-098EF65D68C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD3D0EB-DAC2-1A9E-FC12-69E3AB43D177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD3D0EB-DAC2-1A9E-FC12-69E3AB43D177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD3D0EB-DAC2-1A9E-FC12-69E3AB43D177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD3D0EB-DAC2-1A9E-FC12-69E3AB43D177}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

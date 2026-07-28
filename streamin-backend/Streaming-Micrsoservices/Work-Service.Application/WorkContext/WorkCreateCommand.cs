@@ -38,20 +38,6 @@ namespace Work_Service.Application.WorkContext
                 Deadline: request.Deadline,
                 managerId:request.ManagerId
                 );
-            var commentEventProperty = workitem._Comment.Select(x => new CommentEventProperty(UserId: x.UserId, comment: x.Comment, Timestamp: x.Timestamp)).ToList();
-            var CreationEvent = new WorkCreatedEvent(
-                eventID: Guid.NewGuid(),
-                Id: workitem.Id,
-                name:workitem.Name,
-                description: workitem.description,
-                comment:commentEventProperty,
-                ProjectId: workitem.ProjectId,
-                assignedId: workitem.assignedId,
-                deadline: workitem.Deadline,
-                managerId: workitem.managerId,
-                assignmentDate:workitem.AssignmentDate
-                );
-            workitem.AddEvent(CreationEvent);
             _unitofwork.Add(workitem);
             
             await _unitofwork.SaveChangesAsync();
